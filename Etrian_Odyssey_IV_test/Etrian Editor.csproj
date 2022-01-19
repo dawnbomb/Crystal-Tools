@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA153755-18B7-46A9-AD70-85BAEB2F8505}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Etrian_Odyssey_IV_test</RootNamespace>
+    <AssemblyName>Etrian_Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CustomMarshalers" />
+    <Reference Include="Microsoft.WindowsAPICodePack, Version=1.1.4.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft-WindowsAPICodePack-Core.1.1.4\lib\net472\Microsoft.WindowsAPICodePack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell, Version=1.1.4.0, Culture=neutral, PublicKeyToken=8985beaab7ea3f04, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft-WindowsAPICodePack-Shell.1.1.4\lib\net472\Microsoft.WindowsAPICodePack.Shell.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="!Static\Bits.cs" />
+    <Compile Include="BetaTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BetaTestForm.Designer.cs">
+      <DependentUpon>BetaTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ButtonL.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataNud.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataTextbox.cs" />
+    <Compile Include="!Static\globals.cs" />
+    <Compile Include="Controls\SearchList.cs" />
+    <Compile Include="Etrian I\Etrian I Enemy Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Enemy Editor.Designer.cs">
+      <DependentUpon>Etrian I Enemy Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV.Designer.cs">
+      <DependentUpon>Etrian IV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I.Designer.cs">
+      <DependentUpon>Etrian I.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Level Scaling Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Level Scaling Editor.Designer.cs">
+      <DependentUpon>Etrian I Level Scaling Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Weapon Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Weapon Editor.Designer.cs">
+      <DependentUpon>Etrian I Weapon Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Armor Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian I\Etrian I Armor Editor.Designer.cs">
+      <DependentUpon>Etrian I Armor Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian II\Form II.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian II\Form II.Designer.cs">
+      <DependentUpon>Form II.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian U\Etrian U.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian U\Etrian U.Designer.cs">
+      <DependentUpon>Etrian U.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian U\Etrian U Enemy Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian U\Etrian U Enemy Editor.Designer.cs">
+      <DependentUpon>Etrian U Enemy Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian U2\Etrian U2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian U2\Etrian U2.Designer.cs">
+      <DependentUpon>Etrian U2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian U2\Etrian U2 EnemyEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian U2\Etrian U2 EnemyEditor.Designer.cs">
+      <DependentUpon>Etrian U2 EnemyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian X\Etrian X.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian X\Etrian X.Designer.cs">
+      <DependentUpon>Etrian X.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian X\Etrian X Enemy Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian X\Etrian X Enemy Editor.Designer.cs">
+      <DependentUpon>Etrian X Enemy Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian V\Etrian V Enemy Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian V\Etrian V Enemy Editor.Designer.cs">
+      <DependentUpon>Etrian V Enemy Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Wepon Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Wepon Editor.Designer.cs">
+      <DependentUpon>Etrian IV Wepon Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Enemy Skill Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Enemy Skill Editor.Designer.cs">
+      <DependentUpon>Etrian IV Enemy Skill Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Skill Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Skill Editor.Designer.cs">
+      <DependentUpon>Etrian IV Skill Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fire Emblem Three Houses\Fire Emblem Three Houses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fire Emblem Three Houses\Fire Emblem Three Houses.Designer.cs">
+      <DependentUpon>Fire Emblem Three Houses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fire Emblem Three Houses\Fire Emblem Three Houses Chapter Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fire Emblem Three Houses\Fire Emblem Three Houses Chapter Editor.Designer.cs">
+      <DependentUpon>Fire Emblem Three Houses Chapter Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fire Emblem Three Houses\Fire Emblem Three Houses Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fire Emblem Three Houses\Fire Emblem Three Houses Shop.Designer.cs">
+      <DependentUpon>Fire Emblem Three Houses Shop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Power Spot Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Power Spot Editor.Designer.cs">
+      <DependentUpon>Persona Q Power Spot Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Persona Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Persona Editor.Designer.cs">
+      <DependentUpon>Persona Q Persona Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Skill Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Skill Editor.Designer.cs">
+      <DependentUpon>Persona Q Skill Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q2\FormQ2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q2\FormQ2.Designer.cs">
+      <DependentUpon>FormQ2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q2\FormQ2EnemyEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q2\FormQ2EnemyEditor.Designer.cs">
+      <DependentUpon>FormQ2EnemyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Enemy Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q Enemy Editor.Designer.cs">
+      <DependentUpon>Persona Q Enemy Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Persona Q\Persona Q.Designer.cs">
+      <DependentUpon>Persona Q.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PatchNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PatchNotes.Designer.cs">
+      <DependentUpon>PatchNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template Dummy.cs" />
+    <Compile Include="Title Screen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Title Screen.Designer.cs">
+      <DependentUpon>Title Screen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Enemy Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian IV\Etrian IV Enemy Editor.Designer.cs">
+      <DependentUpon>Etrian IV Enemy Editor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Etrian V\Etrian V.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Etrian V\Etrian V.Designer.cs">
+      <DependentUpon>Etrian V.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table Manager.cs" />
+    <EmbeddedResource Include="BetaTestForm.resx">
+      <DependentUpon>BetaTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian IV\Etrian IV Wepon Editor.resx">
+      <DependentUpon>Etrian IV Wepon Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian I\Etrian I Armor Editor.resx">
+      <DependentUpon>Etrian I Armor Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian I\Etrian I Weapon Editor.resx">
+      <DependentUpon>Etrian I Weapon Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian I\Etrian I Enemy Editor.resx">
+      <DependentUpon>Etrian I Enemy Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian IV\Etrian IV.resx">
+      <DependentUpon>Etrian IV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian I\Etrian I.resx">
+      <DependentUpon>Etrian I.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian U2\Etrian U2 EnemyEditor.resx">
+      <DependentUpon>Etrian U2 EnemyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian U2\Etrian U2.resx">
+      <DependentUpon>Etrian U2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian U\Etrian U Enemy Editor.resx">
+      <DependentUpon>Etrian U Enemy Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian U\Etrian U.resx">
+      <DependentUpon>Etrian U.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian I\Etrian I Level Scaling Editor.resx">
+      <DependentUpon>Etrian I Level Scaling Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian II\Form II.resx">
+      <DependentUpon>Form II.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian X\Etrian X Enemy Editor.resx">
+      <DependentUpon>Etrian X Enemy Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian X\Etrian X.resx">
+      <DependentUpon>Etrian X.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian V\Etrian V Enemy Editor.resx">
+      <DependentUpon>Etrian V Enemy Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian IV\Etrian IV Enemy Skill Editor.resx">
+      <DependentUpon>Etrian IV Enemy Skill Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian IV\Etrian IV Skill Editor.resx">
+      <DependentUpon>Etrian IV Skill Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fire Emblem Three Houses\Fire Emblem Three Houses.resx">
+      <DependentUpon>Fire Emblem Three Houses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fire Emblem Three Houses\Fire Emblem Three Houses Chapter Editor.resx">
+      <DependentUpon>Fire Emblem Three Houses Chapter Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fire Emblem Three Houses\Fire Emblem Three Houses Shop.resx">
+      <DependentUpon>Fire Emblem Three Houses Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q\Persona Q Power Spot Editor.resx">
+      <DependentUpon>Persona Q Power Spot Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q\Persona Q Persona Editor.resx">
+      <DependentUpon>Persona Q Persona Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q2\FormQ2.resx">
+      <DependentUpon>FormQ2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q2\FormQ2EnemyEditor.resx">
+      <DependentUpon>FormQ2EnemyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q\Persona Q Enemy Editor.resx">
+      <DependentUpon>Persona Q Enemy Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q\Persona Q Skill Editor.resx">
+      <DependentUpon>Persona Q Skill Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Persona Q\Persona Q.resx">
+      <DependentUpon>Persona Q.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PatchNotes.resx">
+      <DependentUpon>PatchNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Title Screen.resx">
+      <DependentUpon>Title Screen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian IV\Etrian IV Enemy Editor.resx">
+      <DependentUpon>Etrian IV Enemy Editor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Etrian V\Etrian V.resx">
+      <DependentUpon>Etrian V.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Etrian1Logo.png" />
+    <None Include="Images\Icons\Icon Volt.png" />
+    <None Include="Images\Icons\Icon Stun.png" />
+    <None Include="Images\Icons\Icon Stab.png" />
+    <None Include="Images\Icons\Icon Sleep.png" />
+    <None Include="Images\Icons\Icon Poison.png" />
+    <None Include="Images\Icons\Icon Petrify.png" />
+    <None Include="Images\Icons\Icon Paralyze.png" />
+    <None Include="Images\Icons\Icon Panic.png" />
+    <None Include="Images\Icons\Icon Leg Bind.png" />
+    <None Include="Images\Icons\Icon Ice.png" />
+    <None Include="Images\Icons\Icon Head Bind.png" />
+    <None Include="Images\Icons\Icon Fire.png" />
+    <None Include="Images\Icons\Icon Fear.png" />
+    <None Include="Images\Icons\Icon Death.png" />
+    <None Include="Images\Icons\Icon Cut.png" />
+    <None Include="Images\Icons\Icon Curse.png" />
+    <None Include="Images\Icons\Icon Bash.png" />
+    <None Include="Images\Icons\Icon Arm Bind.png" />
+    <None Include="Images\Icons\Icon Blind Big.png" />
+    <None Include="Images\Icons\Icon Blind.png" />
+    <None Include="Images\Box Art\Etrian Odyssey II JP.jpg" />
+    <None Include="Images\Box Art\Etrian Odyssey II US.jpg" />
+    <None Include="Images\Box Art\Etrian Odyssey IV JP.jpeg" />
+    <None Include="Images\Box Art\Etrian Odyssey IV US.jpg" />
+    <None Include="Images\EO IV Assets\Used\Menu Backround 2x.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box XL4 Chunk.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box XL3 Chunk.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box XL2 Chunk.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box XL Chunk.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box Big Chunk.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box Chunky.png" />
+    <None Include="Images\EO1 Assets\EO1 Unknown Screen.png" />
+    <None Include="Images\EO1 Assets\Stat Box.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box Big.png" />
+    <None Include="Images\EO1 Assets\EO1 Text Box.png" />
+    <None Include="Images\Logo\Touhou Labyrinth 2 Logo.png" />
+    <None Include="Images\Logo\Labyrinth of Touhou 1 Logo.jpg" />
+    <None Include="Images\Logo\Etrian Odyssey Nexus Logo.png" />
+    <None Include="Images\Logo\Etrian Mystery Dungeon Logo.png" />
+    <None Include="Images\Logo\Persona Q2 Logo.png" />
+    <None Include="Images\Logo\Persona Q Logo.png" />
+    <None Include="Images\Logo\Etrian Odyssey Untold 2 Logo.png" />
+    <None Include="Images\Logo\Etrian Odyssey Untold Logo.png" />
+    <None Include="Images\Logo\Etrian Odyssey V Logo.png" />
+    <None Include="Images\Logo\Etrian Odyssey III Logo.png" />
+    <None Include="Images\Logo\Etrian Odyssey II Logo.png" />
+    <None Include="Images\Box Art\Etrian Odyssey 1 JP.jpg" />
+    <None Include="Images\Logo\Etrian Odyssey IV Logo.png" />
+    <None Include="Images\Logo\Etrian Odyssey Logo.png" />
+    <None Include="Images\Box Art\Etrian Odyssey 1 US.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

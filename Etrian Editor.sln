@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Etrian Editor", "Etrian_Odyssey_IV_test\Etrian Editor.csproj", "{DA153755-18B7-46A9-AD70-85BAEB2F8505}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA153755-18B7-46A9-AD70-85BAEB2F8505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA153755-18B7-46A9-AD70-85BAEB2F8505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA153755-18B7-46A9-AD70-85BAEB2F8505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA153755-18B7-46A9-AD70-85BAEB2F8505}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FD8EEDE-FA93-4446-B91D-F5B91BE081A1}
+	EndGlobalSection
+EndGlobal
