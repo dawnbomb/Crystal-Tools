@@ -29,6 +29,7 @@ namespace Etrian_Odyssey_IV_test
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormQ));
             this.button1 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -36,6 +37,7 @@ namespace Etrian_Odyssey_IV_test
             this.button4 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -117,12 +119,23 @@ namespace Etrian_Odyssey_IV_test
             this.label1.Text = "Notes to self:\r\nFOE stats might be in foe/table\r\ninit/BMD files seem to be text f" +
     "or weapons/quest/skill/etc\r\n";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label2.Location = new System.Drawing.Point(12, 369);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(600, 216);
+            this.label2.TabIndex = 26;
+            this.label2.Text = resources.GetString("label2.Text");
+            // 
             // FormQ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Purple;
             this.ClientSize = new System.Drawing.Size(764, 861);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button4);
@@ -147,5 +160,6 @@ namespace Etrian_Odyssey_IV_test
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

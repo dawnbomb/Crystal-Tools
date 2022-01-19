@@ -1,0 +1,83 @@
+Upcoming Goals
+
+-Dropdown menus with text
+   -Skill Editor
+   -Class Picker for EoI Gear
+-EO U/U2/V/X Enemy Editor
+
+January 18 2022
+-Persona Q gets save button for all current viewers, making them editors.
+-Persona Q Persona & Enemy Editors get some confirmed values as being correct.
+-Persona Q Enemy Editor gets item drop & drop chance viewer
+-Renamed Etrian Editor to Crystal Tools
+-Crystal Tools now has a github repository
+
+January 17 2022
+-Persona Q Enemy Viewer gets full Ailments etc, only missing drops.
+-Persona Q Persona Viewer gets all bytes shown
+
+
+January 15 2022
+-Persona Q Enemy Viewer (basic stats, resist and EXP only)
+-Persona Q Persona Viewer (Basic stats, resists, and skills learned)
+-Persona Q Skill Viewer (Raw bytes only)
+
+January 13 2022
+-Persona Q main page & some Buttons
+-Persona Q2 main page & someButtons
+
+January 11 2022
+-More Three Houses Equipment & Items added
+-Added Three Houses Shop Editor for some forges
+
+January 10 2022
+-Added Fire Emblem Three Houses page
+-Added Empty Chapter Editor
+-Added Shop Editor that loads some item data (Does not yet save)
+-Added Shop Editor for some Weapons (Does not yet save)
+-Added Shop editor for a little equipment (Does not yet save)
+
+October 31 2021
+-IV Skill editor HUD was changed
+-IV Skill editor now displays elemental and ailmental icons
+
+October 29 2021
+-IV Skill editor now reads the names of skill subheader. (Does not save changes to headers yet)
+-IV Skill editor now lets you change subheader stats (Skill damage, healing, TP cost, ect!) 
+-PQ got a home page
+-IV Home page got a graphical facelift
+-II Homepage got fancy boxarts
+
+October 28 2021
+-IV Skill editor added, lets you change max skill lv
+-IV Weapon editor added show weapon type 
+-Fixed IV Weapon editor selection not wotking properly
+
+
+October 27 2021
+-IV Basic Weapon Editor
+
+October 26 2021
+-Added RomFS Directory setup. After setup, it will forever auto-load files into Etrian Editor as needed.
+-IV Enemy Editor got a new backround image
+-I & IV Enemy Editor auto-loads the first enemy when opening the editor.
+-I & IV Enemy Editor now automtaically loads a enemies info when selected. 
+-I & IV Enemy Editor Auto-saves when selecting a new enemy.
+-I Weapon Editor also got auto loading/saving.
+-Error Message handleing for incorrect RomFS Directory Setup.
+-Fixed IV Enemy Editor EXP & Head/Arm/Leg Bind not working properly.
+-Fixed I Enemy Editor Lv not working properly.
+-Fixed I Weapon Editor Atk not working properly
+
+
+October 25 2021
+-Added Patch Notes button that isn't yet loading these patch notes
+-EO II/U/U2/V/X got main pages and enemy editor screens.
+-EO I Weapon Editor added ATK Editor
+-EO IV Added an extensive enemy editor (Untested)
+-EO U Added an extensive enemy editor (Untested)
+
+October 20~24 2021
+Created Etrian Editor
+-EO1 enemy editor
+-Very basic EO1 weapon editor

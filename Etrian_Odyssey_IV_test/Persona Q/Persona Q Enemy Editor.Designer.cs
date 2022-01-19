@@ -116,11 +116,11 @@ namespace Etrian_Odyssey_IV_test
             this.label41 = new System.Windows.Forms.Label();
             this.richTextBoxItem3 = new System.Windows.Forms.RichTextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
             this.richTextBoxItem1Drop = new System.Windows.Forms.RichTextBox();
             this.richTextBoxItem3Drop = new System.Windows.Forms.RichTextBox();
             this.richTextBoxItem2Drop = new System.Windows.Forms.RichTextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -284,7 +284,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             // richTextBoxExp
             // 
-            this.richTextBoxExp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.richTextBoxExp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxExp.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.richTextBoxExp.Location = new System.Drawing.Point(91, 343);
             this.richTextBoxExp.Name = "richTextBoxExp";
@@ -1021,7 +1021,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             // richTextBoxItem1
             // 
-            this.richTextBoxItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.richTextBoxItem1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxItem1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.richTextBoxItem1.Location = new System.Drawing.Point(77, 60);
             this.richTextBoxItem1.Name = "richTextBoxItem1";
@@ -1041,7 +1041,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             // richTextBoxItem2
             // 
-            this.richTextBoxItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.richTextBoxItem2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxItem2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.richTextBoxItem2.Location = new System.Drawing.Point(77, 103);
             this.richTextBoxItem2.Name = "richTextBoxItem2";
@@ -1062,7 +1062,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             // richTextBoxItem3
             // 
-            this.richTextBoxItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.richTextBoxItem3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxItem3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.richTextBoxItem3.Location = new System.Drawing.Point(77, 146);
             this.richTextBoxItem3.Name = "richTextBoxItem3";
@@ -1091,15 +1091,35 @@ namespace Etrian_Odyssey_IV_test
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Item Drops";
             // 
-            // label42
+            // richTextBoxItem1Drop
             // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label42.Location = new System.Drawing.Point(83, 26);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(45, 24);
-            this.label42.TabIndex = 94;
-            this.label42.Text = "Item";
+            this.richTextBoxItem1Drop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBoxItem1Drop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxItem1Drop.Location = new System.Drawing.Point(185, 60);
+            this.richTextBoxItem1Drop.Name = "richTextBoxItem1Drop";
+            this.richTextBoxItem1Drop.Size = new System.Drawing.Size(70, 37);
+            this.richTextBoxItem1Drop.TabIndex = 96;
+            this.richTextBoxItem1Drop.Text = "";
+            // 
+            // richTextBoxItem3Drop
+            // 
+            this.richTextBoxItem3Drop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBoxItem3Drop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxItem3Drop.Location = new System.Drawing.Point(185, 146);
+            this.richTextBoxItem3Drop.Name = "richTextBoxItem3Drop";
+            this.richTextBoxItem3Drop.Size = new System.Drawing.Size(70, 37);
+            this.richTextBoxItem3Drop.TabIndex = 98;
+            this.richTextBoxItem3Drop.Text = "";
+            // 
+            // richTextBoxItem2Drop
+            // 
+            this.richTextBoxItem2Drop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBoxItem2Drop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxItem2Drop.Location = new System.Drawing.Point(185, 103);
+            this.richTextBoxItem2Drop.Name = "richTextBoxItem2Drop";
+            this.richTextBoxItem2Drop.Size = new System.Drawing.Size(70, 37);
+            this.richTextBoxItem2Drop.TabIndex = 97;
+            this.richTextBoxItem2Drop.Text = "";
             // 
             // label43
             // 
@@ -1111,35 +1131,15 @@ namespace Etrian_Odyssey_IV_test
             this.label43.TabIndex = 95;
             this.label43.Text = "Drop %";
             // 
-            // richTextBoxItem1Drop
+            // label42
             // 
-            this.richTextBoxItem1Drop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.richTextBoxItem1Drop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxItem1Drop.Location = new System.Drawing.Point(185, 60);
-            this.richTextBoxItem1Drop.Name = "richTextBoxItem1Drop";
-            this.richTextBoxItem1Drop.Size = new System.Drawing.Size(70, 37);
-            this.richTextBoxItem1Drop.TabIndex = 96;
-            this.richTextBoxItem1Drop.Text = "";
-            // 
-            // richTextBoxItem3Drop
-            // 
-            this.richTextBoxItem3Drop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.richTextBoxItem3Drop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxItem3Drop.Location = new System.Drawing.Point(185, 146);
-            this.richTextBoxItem3Drop.Name = "richTextBoxItem3Drop";
-            this.richTextBoxItem3Drop.Size = new System.Drawing.Size(70, 37);
-            this.richTextBoxItem3Drop.TabIndex = 98;
-            this.richTextBoxItem3Drop.Text = "";
-            // 
-            // richTextBoxItem2Drop
-            // 
-            this.richTextBoxItem2Drop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.richTextBoxItem2Drop.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxItem2Drop.Location = new System.Drawing.Point(185, 103);
-            this.richTextBoxItem2Drop.Name = "richTextBoxItem2Drop";
-            this.richTextBoxItem2Drop.Size = new System.Drawing.Size(70, 37);
-            this.richTextBoxItem2Drop.TabIndex = 97;
-            this.richTextBoxItem2Drop.Text = "";
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label42.Location = new System.Drawing.Point(83, 26);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(45, 24);
+            this.label42.TabIndex = 94;
+            this.label42.Text = "Item";
             // 
             // FormQEnemyEditor
             // 

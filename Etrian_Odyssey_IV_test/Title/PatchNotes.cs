@@ -25,5 +25,10 @@ namespace Etrian_Odyssey_IV_test
         {
 
         }
+
+        private void PatchNotes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -513,6 +513,13 @@ namespace Etrian_Odyssey_IV_test
             UInt16.TryParse(richTextBoxAilment14.Text, out value16); { Form1.ByteWriter(value16, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 80); } 
             UInt16.TryParse(richTextBoxAilment15.Text, out value16); { Form1.ByteWriter(value16, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 82); } 
             UInt16.TryParse(richTextBoxAilment16.Text, out value16); { Form1.ByteWriter(value16, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 84); } 
+
+            UInt16.TryParse(richTextBoxItem1.Text, out value16); { Form1.ByteWriter(value16, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 108); } 
+            UInt16.TryParse(richTextBoxItem2.Text, out value16); { Form1.ByteWriter(value16, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 114); } 
+            UInt16.TryParse(richTextBoxItem3.Text, out value16); { Form1.ByteWriter(value16, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 120); } 
+            Byte.TryParse(richTextBoxItem1Drop.Text, out value8); { Form1.ByteWriter(value8, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 110); } 
+            Byte.TryParse(richTextBoxItem2Drop.Text, out value8); { Form1.ByteWriter(value8, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 116); } 
+            Byte.TryParse(richTextBoxItem3Drop.Text, out value8); { Form1.ByteWriter(value8, enemydata_array, 0 + (enemyTree.SelectedNode.Index * 136) + 122); } 
             
 
             File.WriteAllBytes(Properties.Settings.Default.PQRomFS + "\\battle\\table\\enemydata.tbl", enemydata_array); //saves to the path i set, everything in the array/

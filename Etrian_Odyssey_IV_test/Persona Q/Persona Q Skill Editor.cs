@@ -17,10 +17,19 @@ namespace Etrian_Odyssey_IV_test
     public partial class FormQSkillEditor : Form
     {
         String treeloaded = "No";
+        List<ComboBox> boxes = new List<ComboBox>();  //Puts the combo boxes in an array called boxes so i can refernce this array later (to make the code pretty and save time)
         byte[] enemydata_array; //This starts the array, the name after is what i name this array?
         public FormQSkillEditor()
         {
             InitializeComponent();
+            boxes.Add(comboBoxSkillFlag1);
+            boxes.Add(comboBoxSkillFlag2);
+            boxes.Add(comboBoxSkillFlag3);
+            boxes.Add(comboBoxSkillFlag4);
+            boxes.Add(comboBoxSkillFlag5);
+            boxes.Add(comboBoxSkillFlag6);
+            boxes.Add(comboBoxSkillFlag7);
+            boxes.Add(comboBoxSkillFlag8);
 
             string enemydata_path = Properties.Settings.Default.PQRomFS + "\\battle\\table\\skilltable.tbl"; //This defines the path as a string, so i can refer to it by this string/name instead of the full path every time
             int enemydata_length = (int)(new FileInfo(enemydata_path).Length);   //The leagth of the array?
@@ -1404,6 +1413,36 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("BLANK");
             enemyTree.Nodes.Add("BLANK");
 
+            string[] values = new[] {
+            "Unknown Flag",
+            "00 No Flag",
+            "01 SP Cost",
+            "02 IV",
+            "03 Speed Mod IV",
+            "04 Base Accuracy",
+            "05 Accuracy Mod IV",
+            "A4 Never Miss IV",
+            "2C Splash Damage%",
+            "3F Inflict Chance",
+            "48 Skill Damage%",
+            "4A Amount Restored IV",
+            "53 Min Hit #",
+            "54 Max Hit #",
+            "59 Poison Damage%",
+            "D9 Buff Turns",
+            "FF IV",
+            "1FB Percent Heal",
+            "21B Knockdown Chance"
+            };
+            comboBoxSkillFlag1.Items.AddRange(values);
+            comboBoxSkillFlag2.Items.AddRange(values);
+            comboBoxSkillFlag3.Items.AddRange(values);
+            comboBoxSkillFlag4.Items.AddRange(values);
+            comboBoxSkillFlag5.Items.AddRange(values);
+            comboBoxSkillFlag6.Items.AddRange(values);
+            comboBoxSkillFlag7.Items.AddRange(values);
+            comboBoxSkillFlag8.Items.AddRange(values);
+
             TreeNodeCollection nodeCollect = enemyTree.Nodes;
             enemyTree.SelectedNode = nodeCollect[0];
         }
@@ -1456,11 +1495,67 @@ namespace Etrian_Odyssey_IV_test
 
 
 
+            //Attempting to add skill flags
+            textBoxFlag1Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 44).ToString("D");
+            textBoxFlag2Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 88).ToString("D");
+            textBoxFlag3Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 132).ToString("D");
+            textBoxFlag4Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 176).ToString("D");
+            textBoxFlag5Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 220).ToString("D");
+            textBoxFlag6Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 264).ToString("D");
+            textBoxFlag7Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 308).ToString("D");
+            textBoxFlag8Lv1.Text = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 352).ToString("D");
+
+
+            string VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 40).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(0);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 84).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(1);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 128).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(2);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 172).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(3);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 216).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(4);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 260).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(5);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 304).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(6);
+
+            VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 0 + (enemyTree.SelectedNode.Index * 392) + 348).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(7);
+
+
+            void nameOfFlags(int box_id)
+            {
+                //skillTree.Nodes.Add("Function Is Working!" + VarcomboBoxSkillFlag);
+                boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Unknown Flag");
+                if (VarSkillFlag == "0") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("00 No Flag"); }
+                if (VarSkillFlag == "1") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("01 SP Cost"); }
+                if (VarSkillFlag == "3") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("03 Speed Mod IV"); }
+                if (VarSkillFlag == "4") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("04 Base Accuracy"); }
+                if (VarSkillFlag == "5") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("05 Accuracy Mod IV"); }
+                if (VarSkillFlag == "44") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("2C Splash Damage%"); }
+                if (VarSkillFlag == "63") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("3F Inflict Chance"); }
+                if (VarSkillFlag == "72") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("48 Skill Damage%"); }
+                if (VarSkillFlag == "74") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("4A Amount Restored IV"); }
+                if (VarSkillFlag == "83") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("53 Min Hit #"); }
+                if (VarSkillFlag == "84") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("54 Max Hit #"); }
+                if (VarSkillFlag == "89") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("59 Poison Damage%"); }
+                if (VarSkillFlag == "164") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("A4 Never Miss IV"); }
+                if (VarSkillFlag == "217") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("D9 Buff Turns"); }
+                if (VarSkillFlag == "507") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("1FB Percent Heal"); }
+                if (VarSkillFlag == "539") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("21B Knockdown Chance"); }
 
 
 
 
-
+            }
 
         }
 

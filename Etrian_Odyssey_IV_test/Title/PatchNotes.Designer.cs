@@ -49,6 +49,7 @@ namespace Etrian_Odyssey_IV_test
             this.Controls.Add(this.richTextBoxPatchNotes);
             this.Name = "PatchNotes";
             this.Text = "Patch Notes";
+            this.Load += new System.EventHandler(this.PatchNotes_Load);
             this.ResumeLayout(false);
 
         }

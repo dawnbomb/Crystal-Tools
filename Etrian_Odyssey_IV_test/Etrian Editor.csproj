@@ -74,10 +74,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="!Static\Bits.cs" />
-    <Compile Include="BetaTestForm.cs">
+    <Compile Include="Title\BetaTestForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BetaTestForm.Designer.cs">
+    <Compile Include="Title\BetaTestForm.Designer.cs">
       <DependentUpon>BetaTestForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\ButtonL.cs">
@@ -251,17 +251,17 @@
     <Compile Include="Persona Q\Persona Q.Designer.cs">
       <DependentUpon>Persona Q.cs</DependentUpon>
     </Compile>
-    <Compile Include="PatchNotes.cs">
+    <Compile Include="Title\PatchNotes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PatchNotes.Designer.cs">
+    <Compile Include="Title\PatchNotes.Designer.cs">
       <DependentUpon>PatchNotes.cs</DependentUpon>
     </Compile>
     <Compile Include="Template Dummy.cs" />
-    <Compile Include="Title Screen.cs">
+    <Compile Include="Title\Title Screen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Title Screen.Designer.cs">
+    <Compile Include="Title\Title Screen.Designer.cs">
       <DependentUpon>Title Screen.cs</DependentUpon>
     </Compile>
     <Compile Include="Etrian IV\Etrian IV Enemy Editor.cs">
@@ -279,7 +279,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Table Manager.cs" />
-    <EmbeddedResource Include="BetaTestForm.resx">
+    <EmbeddedResource Include="Title\BetaTestForm.resx">
       <DependentUpon>BetaTestForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Etrian IV\Etrian IV Wepon Editor.resx">
@@ -363,10 +363,10 @@
     <EmbeddedResource Include="Persona Q\Persona Q.resx">
       <DependentUpon>Persona Q.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PatchNotes.resx">
+    <EmbeddedResource Include="Title\PatchNotes.resx">
       <DependentUpon>PatchNotes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Title Screen.resx">
+    <EmbeddedResource Include="Title\Title Screen.resx">
       <DependentUpon>Title Screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Etrian IV\Etrian IV Enemy Editor.resx">
