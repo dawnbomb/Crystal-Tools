@@ -19,9 +19,12 @@ namespace Etrian_Odyssey_IV_test
         String treeloaded = "No";
         byte[] personadata_array; //This starts the array, the name after is what i name this array?
         byte[] subpersonadata_array; //This starts the array, the name after is what i name this array?
+        List<ComboBox> boxes = new List<ComboBox>();  //Puts the combo boxes in an array called boxes so i can refernce this array later (to make the code pretty and save time)  This is for Arcana Select
         public FormQPersonaEditor()
         {
             InitializeComponent();
+
+            boxes.Add(comboBoxArcana);
 
             //setting up stuff for Main Persona Loading
             string personadata_path = Properties.Settings.Default.PQRomFS + "\\battle\\table\\datpersonaformat.tbl"; //This defines the path as a string, so i can refer to it by this string/name instead of the full path every time
@@ -324,6 +327,37 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("0x11E");
             enemyTree.Nodes.Add("0x11F");
 
+
+            //Sets up a arcana select dropdown menu
+            string[] values = new[] {
+            "Unknown Arcana",
+            "00", //00
+            "Fool", //01
+            "Magician", //02
+            "Priestess", //03
+            "Empress", //04
+            "Emperor", //05
+            "Hierophant", //06
+            "Lovers", //07
+            "Chariot", //08
+            "Justice", //09
+            "Hermit", //0A
+            "Fortune", //0B
+            "Strength", //0C
+            "Hanged", //0D
+            "Death", //0E
+            "Temperance", //0F
+            "Devil", //10
+            "Tower", //11
+            "Star", //12
+            "Moon", //13
+            "Sun", //14
+            "Judgement" //15
+            };
+            comboBoxArcana.Items.AddRange(values);
+            
+
+            
             TreeNodeCollection nodeCollect = enemyTree.Nodes;
             enemyTree.SelectedNode = nodeCollect[0];
         }
@@ -420,10 +454,49 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxUnknownSub1.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 1].ToString("D");
 
 
+            
+            //Fills the arcana box
+            string VarSkillFlag = personadata_array[0 + (enemyTree.SelectedNode.Index * 148) + 2].ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(0);
+
+            void nameOfFlags(int box_id)
+            {
+                //skillTree.Nodes.Add("Function Is Working!" + VarcomboBoxSkillFlag);
+                boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Unknown Arcana");
+                if (VarSkillFlag == "0") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("00"); }
+                if (VarSkillFlag == "1") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Fool"); }
+                if (VarSkillFlag == "2") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Magician"); }
+                if (VarSkillFlag == "3") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Priestess"); }
+                if (VarSkillFlag == "4") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Empress"); }
+                if (VarSkillFlag == "5") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Emperor"); }
+                if (VarSkillFlag == "6") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Hierophant"); }
+                if (VarSkillFlag == "7") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Lovers"); }
+                if (VarSkillFlag == "8") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Chariot"); }
+                if (VarSkillFlag == "9") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Justice"); }
+                if (VarSkillFlag == "10") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Hermit"); }
+                if (VarSkillFlag == "11") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Fortune"); }
+                if (VarSkillFlag == "12") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Strength"); }
+                if (VarSkillFlag == "13") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Hanged"); }
+                if (VarSkillFlag == "14") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Death"); }
+                if (VarSkillFlag == "15") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Temperance"); }
+                if (VarSkillFlag == "16") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Devil"); }
+                if (VarSkillFlag == "17") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Tower"); }
+                if (VarSkillFlag == "18") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Star"); }
+                if (VarSkillFlag == "19") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Moon"); }
+                if (VarSkillFlag == "20") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Sun"); }
+                if (VarSkillFlag == "21") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("Judgement"); }
 
 
 
+
+
+            }
+            //End of Fills Arcana Box
+            
         }
+
+
+
 
         private void label20_Click(object sender, EventArgs e) //delete mee
         {
