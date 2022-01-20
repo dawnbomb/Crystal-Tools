@@ -378,23 +378,16 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxLearnFlag7.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 33].ToString("D");
             richTextBoxLearnFlag8.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 37].ToString("D");
 
-            richTextBoxLearnSkill1.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 10].ToString("D");
-            richTextBoxLearnSkill2.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 14].ToString("D");
-            richTextBoxLearnSkill3.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 18].ToString("D");
-            richTextBoxLearnSkill4.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 22].ToString("D");
-            richTextBoxLearnSkill5.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 26].ToString("D");
-            richTextBoxLearnSkill6.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 30].ToString("D");
-            richTextBoxLearnSkill7.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 34].ToString("D");
-            richTextBoxLearnSkill8.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 38].ToString("D");
+            richTextBoxLearnSkill1.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 10).ToString("D");
+            richTextBoxLearnSkill2.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 14).ToString("D");
+            richTextBoxLearnSkill3.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 18).ToString("D");
+            richTextBoxLearnSkill4.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 22).ToString("D");
+            richTextBoxLearnSkill5.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 26).ToString("D");
+            richTextBoxLearnSkill6.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 30).ToString("D");
+            richTextBoxLearnSkill7.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 34).ToString("D");
+            richTextBoxLearnSkill8.Text = BitConverter.ToUInt16(subpersonadata_array, 0 + (enemyTree.SelectedNode.Index * 72) + 38).ToString("D");
 
-            richTextBoxUnknown1.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 11].ToString("D");
-            richTextBoxUnknown2.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 15].ToString("D");
-            richTextBoxUnknown3.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 19].ToString("D");
-            richTextBoxUnknown4.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 23].ToString("D");
-            richTextBoxUnknown5.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 27].ToString("D");
-            richTextBoxUnknown6.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 31].ToString("D");
-            richTextBoxUnknown7.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 35].ToString("D");
-            richTextBoxUnknown8.Text = subpersonadata_array[0 + (enemyTree.SelectedNode.Index * 72) + 39].ToString("D");
+
 
             //Unknown main-persona values
             richTextBoxUnknownMain0.Text = personadata_array[0 + (enemyTree.SelectedNode.Index * 148) + 0].ToString("D");
