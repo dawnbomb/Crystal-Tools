@@ -15,8 +15,13 @@ namespace Etrian_Odyssey_IV_test
         public PatchNotes()
         {
             InitializeComponent();
-            richTextBoxPatchNotes.Text = "Hello";
+            richTextBoxPatchNotes.Text = System.IO.File.ReadAllText(@"C:/users/Crystal Tools PatchNotes.txt"); 
+
             
+
+
+
+
 
 
         }

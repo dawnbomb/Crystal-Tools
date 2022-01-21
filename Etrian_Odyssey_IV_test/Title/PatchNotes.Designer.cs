@@ -34,9 +34,11 @@ namespace Etrian_Odyssey_IV_test
             // 
             // richTextBoxPatchNotes
             // 
-            this.richTextBoxPatchNotes.Location = new System.Drawing.Point(12, 12);
+            this.richTextBoxPatchNotes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.richTextBoxPatchNotes.ForeColor = System.Drawing.SystemColors.Window;
+            this.richTextBoxPatchNotes.Location = new System.Drawing.Point(12, 27);
             this.richTextBoxPatchNotes.Name = "richTextBoxPatchNotes";
-            this.richTextBoxPatchNotes.Size = new System.Drawing.Size(760, 837);
+            this.richTextBoxPatchNotes.Size = new System.Drawing.Size(760, 822);
             this.richTextBoxPatchNotes.TabIndex = 0;
             this.richTextBoxPatchNotes.Text = "";
             this.richTextBoxPatchNotes.TextChanged += new System.EventHandler(this.richTextBoxPatchNotes_TextChanged);
@@ -45,6 +47,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(784, 861);
             this.Controls.Add(this.richTextBoxPatchNotes);
             this.Name = "PatchNotes";

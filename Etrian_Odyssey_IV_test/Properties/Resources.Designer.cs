@@ -61,6 +61,33 @@ namespace Etrian_Odyssey_IV_test.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Upcoming Goals
+        ///
+        ///-Dropdown menus with text
+        ///   -Skill Editor
+        ///   -Class Picker for EoI Gear
+        ///-EO U/U2/V/X Enemy Editor
+        ///
+        ///January 21 2022
+        ///-Persona Q main page now looks nicer and has some useful links + guide to get started with modding!
+        ///
+        ///January 20 2022
+        ///-Persona Q Persona editor gets a unfinished arcana changer
+        ///-Persona Q Skill editor changed skills to have skill ID&apos;s displayed
+        ///-Persona Q Persona editor now referes to skill by ID number
+        ///
+        ///January 19 2022
+        ///-Persona Q gets Power Spot editor
+        ///
+        ///Januar [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Crystal_Tools_PatchNotes {
+            get {
+                return ResourceManager.GetString("Crystal_Tools_PatchNotes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap EO1_Text_Box_Big {
@@ -486,6 +513,26 @@ namespace Etrian_Odyssey_IV_test.Properties {
         internal static System.Drawing.Bitmap Persona_Q_Logo {
             get {
                 object obj = ResourceManager.GetObject("Persona Q Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Persona_Q_US {
+            get {
+                object obj = ResourceManager.GetObject("Persona Q US", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Persona_Q_US_Back {
+            get {
+                object obj = ResourceManager.GetObject("Persona Q US Back", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

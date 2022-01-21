@@ -127,5 +127,67 @@ namespace Etrian_Odyssey_IV_test
             f2.Show(); //Show the new window
             this.Close(); //Close the current window
         }
+
+        private void button7_Click(object sender, EventArgs e) //Button 7
+        {
+            System.Windows.Forms.MessageBox.Show("Step 1: Download the Persona Q Modding Toolkit. Also get the US version of persona Q, and the citra emulaitor.  " +
+                "\n\nStep 2: In citra, right click the game and select DumpRomFS. " +
+                "\n\nStep 3: Inside romfs is a CPK file, move this to the modding toolkit / CPK tool. Use the CPKTools unpacker feature to fully unpack it. " +
+                "\n\nStep 4: Create three folders None of the names are specific, but the guide and editor will use these default names. " +
+                "\n1: 'Origonal romfs', move the unpacked CPK game files here. This is a backup incase you fuck something up." +
+                "\n2: 'Editor romfs', it's where files the editor modifies will go." +
+                "\n3: 'Final romfs', in the toolkit move EVERYTHING from the 'empty mod' folder into this folder." +
+                "\n\nStep 5: In the PQ editor (Right below this tutorial) click set romfs directory button and select the (presumably still empty) Editor romfs folder." +
+                "\n\nStep 6: Clicking on any editor will tell you what files it needs to be put in the Editors romfs folder. Do so and you can now open that editor. " +
+                "\n\nI recommend testing the editor with Cowardly Maya's HP, it's the first enemy in the game, and it's HP is shown in the enempedia ingame (in system / enempedia). After you have made some changes and clicked save, proceed onward." +
+                "\n\nStep 7: In the modding toolkit run the CPK tool again, this time we are going to pack the Editor romfs folder. save the CPK it makes to the 'Final romfs' folder we made in step 3. The CPK must be named EXACTLY 'mod.cpk' or you will get a fatal error in step 8." +
+                "\n\nStep 8: Copy the entire contents of 'Final romfs' (not the folder itself). In citra right click the game and select 'Open Mods Location'. Paste the files here, then run the game and it should work!", "Persona Q USA Rom Modding Guide");
+
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Skill Data
+        {
+            System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1PX3nzCx6rWDoMECvjyAz0wOCQNUuEOpi_n8Mx8wSvsk/edit#gid=970728080");
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Enemy Data
+        {
+        
+            System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1G5TS2PuGirZT2rjC_Xy0dTkDNpt7zwOw9MIGZOxBWIs/edit#gid=0");
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Power Spot Data
+        {
+            System.Diagnostics.Process.Start("https://docs.google.com/spreadsheets/d/1GKUfjlpvXwUFkFiyhlQkiEZKgVVeCh3uxm_pSPvvEyE/edit#gid=0");
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Undub
+        {
+             System.Diagnostics.Process.Start("https://gbatemp.net/threads/release-persona-q-undub.374428/");
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Skill Card List
+        {
+            System.Diagnostics.Process.Start("https://gamefaqs.gamespot.com/3ds/739685-persona-q-shadow-of-the-labyrinth/faqs/70777");
+        }
+
+        private void linkLabel6_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Shadows List
+        {
+            System.Diagnostics.Process.Start("https://gamefaqs.gamespot.com/3ds/739685-persona-q-shadow-of-the-labyrinth/faqs/71197?page=6#You%20in%20Wonderland%20Shadows");
+        }
+
+        private void linkLabel7_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) //Gamefaqs Board Link
+        {
+            System.Diagnostics.Process.Start("https://gamefaqs.gamespot.com/boards/739685-persona-q-shadow-of-the-labyrinth");
+        }
+
+        private void button8_Click(object sender, EventArgs e) //Ai Editor
+        {
+            FormPQAIEditor f2 = new FormPQAIEditor(); //Create the new form
+            f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+            f2.Location = this.Location; //Create the new window at the same location as current one
+            f2.Show(); //Show the new window
+            this.Close(); //Close the current window
+        }
     }
 }

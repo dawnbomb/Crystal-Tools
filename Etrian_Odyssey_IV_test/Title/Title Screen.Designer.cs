@@ -33,6 +33,8 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -45,8 +47,6 @@
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label5
@@ -95,6 +95,30 @@
             this.button13.Text = "Beta Test Zone";
             this.button13.UseVisualStyleBackColor = true;
             this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(564, 729);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(215, 130);
+            this.button14.TabIndex = 33;
+            this.button14.Text = "Patch Notes";
+            this.button14.UseVisualStyleBackColor = true;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.ForeColor = System.Drawing.Color.Black;
+            this.button15.Location = new System.Drawing.Point(523, 579);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(256, 137);
+            this.button15.TabIndex = 34;
+            this.button15.Text = "Fire Emblem: Three Houses";
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button12
             // 
@@ -262,30 +286,6 @@
             this.button3.TabIndex = 4;
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.Button3_Click);
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(564, 729);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(215, 130);
-            this.button14.TabIndex = 33;
-            this.button14.Text = "Patch Notes";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.ForeColor = System.Drawing.Color.Black;
-            this.button15.Location = new System.Drawing.Point(523, 579);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(256, 137);
-            this.button15.TabIndex = 34;
-            this.button15.Text = "Fire Emblem: Three Houses";
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // Form1
             // 

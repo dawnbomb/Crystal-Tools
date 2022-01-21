@@ -117,17 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label2.Text" xml:space="preserve">
-    <value>Current Goals:
--Make Persona and Enemy editor weaknesses use dropdown menus?
--Test power spot info
--Make asterius do skill array inception so its easier to use.
--Setup enemy AI Stuff
--Figure out default abilities and where they are for primary personas
--Get a downloadable release on Github
--Get textboxes to have a max value
--Get atleast one editor to a state WORTHY of having a github release!
--Add per in-editor notepads
--Make Skill / Persona / Enemy Editors look nice</value>
-  </data>
 </root>

@@ -118,139 +118,148 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Etrian Odyssey II Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey II Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey III Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey III Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey IV Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey IV Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey Nexus Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey Nexus Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EO1 Text Box Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\EO1 Assets\EO1 Text Box Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey 1 JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Box Art\Etrian Odyssey 1 JP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Persona Q Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Persona Q Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Mystery Dungeon Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Mystery Dungeon Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Touhou Labyrinth 2 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Touhou Labyrinth 2 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EO1 Unknown Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\EO1 Assets\EO1 Unknown Screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey Untold Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey Untold Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Labyrinth of Touhou 1 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Labyrinth of Touhou 1 Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Menu Backround 2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\EO IV Assets\Used\Menu Backround 2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey V Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey V Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey IV JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Box Art\Etrian Odyssey IV JP.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Etrian Odyssey Untold 2 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey Untold 2 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Etrian Odyssey IV US" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Box Art\Etrian Odyssey IV US.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="EO1 Text Box XL3 Chunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\EO1 Assets\EO1 Text Box XL3 Chunk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="EO1 Text Box XL4 Chunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\EO1 Assets\EO1 Text Box XL4 Chunk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey Untold 2 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Logo\Etrian Odyssey Untold 2 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey II JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Box Art\Etrian Odyssey II JP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey 1 US" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Box Art\Etrian Odyssey 1 US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Persona Q2 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Logo\Persona Q2 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey II US" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Box Art\Etrian Odyssey II US.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Etrian Odyssey IV US1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Box Art\Etrian Odyssey IV US.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Arm Bind" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Arm Bind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Bash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Bash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Blind Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Blind Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Blind" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Blind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Curse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Curse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Cut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Death" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Death.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Fear" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Fear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Head Bind" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Head Bind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon Leg Bind" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Icons\Icon Leg Bind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Menu Backround 2x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\EO IV Assets\Used\Menu Backround 2x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Fear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Fear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey 1 US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Box Art\Etrian Odyssey 1 US.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Head Bind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Head Bind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EO1 Text Box XL3 Chunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\EO1 Assets\EO1 Text Box XL3 Chunk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icon Panic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Icons\Icon Panic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon Paralyze" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Paralyze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Petrify" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Petrify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Icon Poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Poison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Persona Q Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Persona Q Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon Sleep" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Icons\Icon Sleep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon Stab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Stab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icon Petrify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Petrify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Blind Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Blind Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Volt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Volt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Cut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey Nexus Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey Nexus Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey IV US1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Box Art\Etrian Odyssey IV US.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey II Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey II Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey Untold Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey Untold Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Mystery Dungeon Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Mystery Dungeon Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey III Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey III Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey 1 JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Box Art\Etrian Odyssey 1 JP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Curse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Curse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icon Stun" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Images\Icons\Icon Stun.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icon Volt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Images\Icons\Icon Volt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="EO1 Unknown Screen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\EO1 Assets\EO1 Unknown Screen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EO1 Text Box XL4 Chunk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\EO1 Assets\EO1 Text Box XL4 Chunk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey V Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey V Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey II US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Box Art\Etrian Odyssey II US.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey II JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Box Art\Etrian Odyssey II JP.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Labyrinth of Touhou 1 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Labyrinth of Touhou 1 Logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Blind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Blind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Persona Q US" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Persona Q\Persona Q US.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Bash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Bash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Death" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Death.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EO1 Text Box Big" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\EO1 Assets\EO1 Text Box Big.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Ice" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Ice.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Touhou Labyrinth 2 Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Touhou Labyrinth 2 Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Arm Bind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Arm Bind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Poison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Poison.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Stab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Stab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Icon Paralyze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Icons\Icon Paralyze.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey IV JP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Box Art\Etrian Odyssey IV JP.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Etrian Odyssey IV Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Logo\Etrian Odyssey IV Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Persona Q US Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\Persona Q\Persona Q US Back.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Crystal_Tools_PatchNotes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Crystal Tools PatchNotes.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;shift_jis</value>
   </data>
 </root>

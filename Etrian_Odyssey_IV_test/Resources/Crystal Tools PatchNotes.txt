@@ -7,7 +7,6 @@ Upcoming Goals
 
 January 21 2022
 -Persona Q main page now looks nicer and has some useful links + guide to get started with modding!
--Main editor patch note button now loads actual patchnotes instead of me saving them locally.
 
 January 20 2022
 -Persona Q Persona editor gets a unfinished arcana changer
