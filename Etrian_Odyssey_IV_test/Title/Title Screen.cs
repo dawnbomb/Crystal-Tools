@@ -159,7 +159,13 @@ namespace Etrian_Odyssey_IV_test
 		}
 
 
-
+		private void button16_Click(object sender, EventArgs e) //Vesperia Button
+		{
+			FormVesperia f2 = new FormVesperia(); //Create the new form
+			f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+			f2.Location = this.Location; //Create the new window at the same location as current one
+			f2.Show();
+		}
 
 
 
@@ -234,6 +240,8 @@ namespace Etrian_Odyssey_IV_test
 		}
 
         
+
+
 
 
 

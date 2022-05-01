@@ -164,6 +164,7 @@ namespace Etrian_Odyssey_IV_test
             this.enemyTree.Name = "enemyTree";
             this.enemyTree.Size = new System.Drawing.Size(137, 787);
             this.enemyTree.TabIndex = 23;
+            this.enemyTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.enemyTree_AfterSelect);
             // 
             // labelPlague
             // 

@@ -74,6 +74,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="!Static\Bits.cs" />
+    <Compile Include="Vesperia\FormVesperiaSkillEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaSkillEditor.Designer.cs">
+      <DependentUpon>FormVesperiaSkillEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaArteEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaArteEditor.Designer.cs">
+      <DependentUpon>FormVesperiaArteEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaItem.Designer.cs">
+      <DependentUpon>FormVesperiaItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaEnemyEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesperia\FormVesperiaEnemyEditor.Designer.cs">
+      <DependentUpon>FormVesperiaEnemyEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vesperia\Vesperia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vesperia\Vesperia.Designer.cs">
+      <DependentUpon>Vesperia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Persona Q\Persona Q Ai Editor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -290,6 +320,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Table Manager.cs" />
+    <EmbeddedResource Include="Vesperia\FormVesperiaSkillEditor.resx">
+      <DependentUpon>FormVesperiaSkillEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vesperia\FormVesperiaArteEditor.resx">
+      <DependentUpon>FormVesperiaArteEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vesperia\FormVesperiaItem.resx">
+      <DependentUpon>FormVesperiaItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Persona Q\Persona Q Ai Editor.resx">
       <DependentUpon>Persona Q Ai Editor.cs</DependentUpon>
     </EmbeddedResource>
@@ -403,6 +442,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Vesperia\FormVesperiaEnemyEditor.resx">
+      <DependentUpon>FormVesperiaEnemyEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vesperia\Vesperia.resx">
+      <DependentUpon>Vesperia.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

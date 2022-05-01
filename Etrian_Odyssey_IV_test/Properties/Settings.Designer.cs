@@ -154,5 +154,17 @@ namespace Etrian_Odyssey_IV_test.Properties {
                 this["PQ2RomFS"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string VesperiaData64 {
+            get {
+                return ((string)(this["VesperiaData64"]));
+            }
+            set {
+                this["VesperiaData64"] = value;
+            }
+        }
     }
 }
