@@ -119,13 +119,15 @@
   </resheader>
   <data name="label54.Text" xml:space="preserve">
     <value>Enemy drops and drop chance missing
-Secret mission drop missing
-(Its seperate from normal drops AND
-they are mutually exclusive, how evil)
-
+List of missing things !
+Item steal
+Normal Drop 1 and 2
+Secret mission drop 
+Secret mission codition 
 Fatal strike resistences missing
 fatal strike bonuses missing
-
-Steal items are missing</value>
+Iron Stance
+Model#
+AI setting?</value>
   </data>
 </root>

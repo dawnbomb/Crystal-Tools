@@ -51,7 +51,7 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Fang Strike");
             enemyTree.Nodes.Add("Wolf Strike");
             enemyTree.Nodes.Add("Destruction Field");
-            enemyTree.Nodes.Add("Dhaos Blast***");
+            enemyTree.Nodes.Add("Dhaos Blast (Accessory)");
             enemyTree.Nodes.Add("Shining Fang");
             enemyTree.Nodes.Add("Tiger Blade");
             enemyTree.Nodes.Add("Draconian Slash");
@@ -85,9 +85,11 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Divine Wolf Earth");
             enemyTree.Nodes.Add("Divine Wolf Wind");
             enemyTree.Nodes.Add("Divine Wolf Water");
-            enemyTree.Nodes.Add("????????");
-            enemyTree.Nodes.Add("???????? 2");
-            enemyTree.Nodes.Add("??? Light Dark");
+            enemyTree.Nodes.Add("Savage Wolf Fury");
+            enemyTree.Nodes.Add("Heavenly Bladewing *MA");
+            enemyTree.Nodes.Add("Twin Wave  *Duel MA");
+            enemyTree.Nodes.Add("Step Combo");
+            enemyTree.Nodes.Add("Regular Attack (Estelle)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -97,14 +99,12 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping");
+            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping");
+            enemyTree.Nodes.Add("Free Run Attack");
+            enemyTree.Nodes.Add("Indigo Fatal Strike");
+            enemyTree.Nodes.Add("Crimson Fatal Strike");
+            enemyTree.Nodes.Add("Viridian Fatal Strike");
             enemyTree.Nodes.Add("Pow Hammer");
             enemyTree.Nodes.Add("Star Stroke");
             enemyTree.Nodes.Add("Pierce Cluster");
@@ -141,22 +141,22 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Revitalize");
             enemyTree.Nodes.Add("Nightingale");
             enemyTree.Nodes.Add("Holy Rain");
-            enemyTree.Nodes.Add("Extreme Stars?");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Extreme Stars");
+            enemyTree.Nodes.Add("Star Sign - Flame");
+            enemyTree.Nodes.Add("Star Sign - Geo");
+            enemyTree.Nodes.Add("Star Sign - Gale");
+            enemyTree.Nodes.Add("Star Sign - Aqua");
+            enemyTree.Nodes.Add("Sacred Penance");
+            enemyTree.Nodes.Add("Sacred Penance");
+            enemyTree.Nodes.Add("Ultimate Elementia");
+            enemyTree.Nodes.Add("Spirit Boom (Efreet)");
+            enemyTree.Nodes.Add("Spirit Boom (Gnome)");
+            enemyTree.Nodes.Add("Spirit Boom (Sylph)");
+            enemyTree.Nodes.Add("Spirit Boom (Undine)");
+            enemyTree.Nodes.Add("Pow Hammer Revenge");
+            enemyTree.Nodes.Add("Auto Medicine");
+            enemyTree.Nodes.Add("Auto Medicine 2");
+            enemyTree.Nodes.Add("Regular Attack (Karol)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -205,16 +205,16 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Destructo Booing Festival");
             enemyTree.Nodes.Add("Diablo Hyper Buster");
             enemyTree.Nodes.Add("Death Quake Spark");
-            enemyTree.Nodes.Add("Hellfire Bugbreath*");
+            enemyTree.Nodes.Add("Blazing Tempest (Title)");
             enemyTree.Nodes.Add("Ultra Punishing Swing");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Ultra Punishing Heat");
+            enemyTree.Nodes.Add("Ultra Punishing Crush");
+            enemyTree.Nodes.Add("Ultra Punishing Typhoon");
+            enemyTree.Nodes.Add("Ultra Punishing Typhoon");
+            enemyTree.Nodes.Add("Ultra Punishing Soul");
+            enemyTree.Nodes.Add("Overlord Reign Impact");
+            enemyTree.Nodes.Add("Mega Flashbang Ultra X Bomber");
+            enemyTree.Nodes.Add("Regular Attack (Rita)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -267,18 +267,18 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Thunder Blade");
             enemyTree.Nodes.Add("Burning Strike");
             enemyTree.Nodes.Add("Mystic Drive");
-            enemyTree.Nodes.Add("Mystic Drive Fire");
-            enemyTree.Nodes.Add("Mystic Drive Earth");
-            enemyTree.Nodes.Add("Mystic Drive Wind");
-            enemyTree.Nodes.Add("Mystic Drive Water");
-            enemyTree.Nodes.Add("?????????");
-            enemyTree.Nodes.Add("??? Fire Wind");
-            enemyTree.Nodes.Add("??? Fire Wind 2");
-            enemyTree.Nodes.Add("??? Fire");
-            enemyTree.Nodes.Add("??? Water");
-            enemyTree.Nodes.Add("??? Earth");
-            enemyTree.Nodes.Add("??? Dark");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Raging Drive");
+            enemyTree.Nodes.Add("Ruinous Drive");
+            enemyTree.Nodes.Add("Fleeting Drive");
+            enemyTree.Nodes.Add("Diffusional Drive");
+            enemyTree.Nodes.Add("Ancient Catastrophe");
+            enemyTree.Nodes.Add("Indignation");
+            enemyTree.Nodes.Add("Indignation (Dhaos)");
+            enemyTree.Nodes.Add("Spell Revenge/Fire Ball");
+            enemyTree.Nodes.Add("Spell Revenge/Champagne");
+            enemyTree.Nodes.Add("Spell Revenge/Stone Blast");
+            enemyTree.Nodes.Add("Spell Revenge/Spread Zero");
+            enemyTree.Nodes.Add("Regular Attack (Raven)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -319,17 +319,17 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Cloud of Heaven's Tears");
             enemyTree.Nodes.Add("Falling Further");
             enemyTree.Nodes.Add("The Growing World");
-            enemyTree.Nodes.Add("??");
-            enemyTree.Nodes.Add("Violent Weasel??");
-            enemyTree.Nodes.Add("??");
-            enemyTree.Nodes.Add("??");
-            enemyTree.Nodes.Add("????");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Violent Weasel");
+            enemyTree.Nodes.Add("Punishment");
+            enemyTree.Nodes.Add("Flying");
+            enemyTree.Nodes.Add("The Wind's Rage");
+            enemyTree.Nodes.Add("Elemental Master");
+            enemyTree.Nodes.Add("Elemental Master Fire");
+            enemyTree.Nodes.Add("Elemental Master Earth");
+            enemyTree.Nodes.Add("Elemental Master Wind");
+            enemyTree.Nodes.Add("Elemental Master Water");
+            enemyTree.Nodes.Add("Elemental Master Light");
+            enemyTree.Nodes.Add("Elemental Master Dark");
             enemyTree.Nodes.Add("Wind Blade");
             enemyTree.Nodes.Add("Arrivederci");
             enemyTree.Nodes.Add("Hevoc Gale");
@@ -339,18 +339,18 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Tempest");
             enemyTree.Nodes.Add("Stop Flow");
             enemyTree.Nodes.Add("Fury Blast");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Chaotic Fury");
+            enemyTree.Nodes.Add("Garnet Chaos");
+            enemyTree.Nodes.Add("Kamikaze Fury");
+            enemyTree.Nodes.Add("Storm of Chaos");
+            enemyTree.Nodes.Add("Blast Heart");
+            enemyTree.Nodes.Add("Crisis Rain");
+            enemyTree.Nodes.Add("Arrow Revenge");
+            enemyTree.Nodes.Add("Wide slice (Judith?)");
+            enemyTree.Nodes.Add("High thrust");
+            enemyTree.Nodes.Add("Middle thrust");
+            enemyTree.Nodes.Add("Leg sweep");
+            enemyTree.Nodes.Add("Jump cut");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -398,14 +398,14 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Luna Storm");
             enemyTree.Nodes.Add("Bloody Rose");
             enemyTree.Nodes.Add("Ashen Moonlight");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Conflagration Blast");
+            enemyTree.Nodes.Add("Crushing Grave");
+            enemyTree.Nodes.Add("Quasi Seal");
+            enemyTree.Nodes.Add("Midnight Flood");
+            enemyTree.Nodes.Add("Radiant Moonlight");
+            enemyTree.Nodes.Add("Dragon's Moon Spear");
+            enemyTree.Nodes.Add("Touchdown");
+            enemyTree.Nodes.Add("Regular Attack (Dog)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -453,13 +453,13 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Phantom Glacier");
             enemyTree.Nodes.Add("Beastly Blow");
             enemyTree.Nodes.Add("Divine Dog");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Divine Dog - Blaze");
+            enemyTree.Nodes.Add("Divine Dog - Tremble");
+            enemyTree.Nodes.Add("Divine Dog - Savage");
+            enemyTree.Nodes.Add("Divine Dog - Whirlpool");
+            enemyTree.Nodes.Add("Lightning Flash");
+            enemyTree.Nodes.Add("?? (Dummy?)");
+            enemyTree.Nodes.Add("Regular Attack (Flynn)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -504,14 +504,14 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Cure");
             enemyTree.Nodes.Add("Mistral Soul");
             enemyTree.Nodes.Add("Blazing Pillar Smash");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Blazing Pillar Smash - Fiery Lion");
+            enemyTree.Nodes.Add("Blazing Pillar Smash - Earthquaker");
+            enemyTree.Nodes.Add("Blazing Pillar Smash - Tornado Cutter");
+            enemyTree.Nodes.Add("Blazing Pillar Smash - Bubble Bomber");
+            enemyTree.Nodes.Add("Radiant Dragon Fang");
+            enemyTree.Nodes.Add("Firebird Flight");
+            enemyTree.Nodes.Add("Twin Wave");
+            enemyTree.Nodes.Add("Regular Attack (Patty)");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
             enemyTree.Nodes.Add("");
@@ -538,9 +538,9 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Random Fall");
             enemyTree.Nodes.Add("Search Gald");
             enemyTree.Nodes.Add("Little Big Chef");
-            enemyTree.Nodes.Add("Little Big Chef ?");
-            enemyTree.Nodes.Add("Little Big Chef ??");
-            enemyTree.Nodes.Add("Little Big Chef ???");
+            enemyTree.Nodes.Add("Little Big Chef  (Looks Tasty...)");
+            enemyTree.Nodes.Add("Little Big Chef (Ice Shavings)");
+            enemyTree.Nodes.Add("Little Big Chef (Not a Fan?)");
             enemyTree.Nodes.Add("Risky Bet");
             enemyTree.Nodes.Add("Risky Bet ?");
             enemyTree.Nodes.Add("Risky Bet ??");
@@ -571,28 +571,28 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Fire Big Chef ?");
             enemyTree.Nodes.Add("Fire Big Chef ??");
             enemyTree.Nodes.Add("Fatal Triangle");
-            enemyTree.Nodes.Add("Fatal Triangle ?");
-            enemyTree.Nodes.Add("???? ");
-            enemyTree.Nodes.Add("???? 2");
-            enemyTree.Nodes.Add("???? 3");
-            enemyTree.Nodes.Add("???? 4");
-            enemyTree.Nodes.Add("???? 5");
-            enemyTree.Nodes.Add("???? 6");
-            enemyTree.Nodes.Add("???? 7");
+            enemyTree.Nodes.Add("Fatal Triangle (Fail)");
+            enemyTree.Nodes.Add("Happy Light");
+            enemyTree.Nodes.Add("Happy Light (Luck)");
+            enemyTree.Nodes.Add("Happy Light (Luck)");
+            enemyTree.Nodes.Add("Happy Light (P. ATK)");
+            enemyTree.Nodes.Add("Happy Light (P. DEF)");
+            enemyTree.Nodes.Add("Happy Light (M. ATK)");
+            enemyTree.Nodes.Add("Happy Light (M. DEF)");
             enemyTree.Nodes.Add("Risky Cast");
             enemyTree.Nodes.Add("Fancy Elements");
-            enemyTree.Nodes.Add("Fancy Elements Fire?");
-            enemyTree.Nodes.Add("Fancy Elements Earth?");
-            enemyTree.Nodes.Add("Fancy Elements Wind?");
-            enemyTree.Nodes.Add("Fancy Elements Water?");
-            enemyTree.Nodes.Add("Fancy Elements Light?");
-            enemyTree.Nodes.Add("Fancy Elements Dark?");
+            enemyTree.Nodes.Add("Fancy Elements Fire");
+            enemyTree.Nodes.Add("Fancy Elements Earth");
+            enemyTree.Nodes.Add("Fancy Elements Wind");
+            enemyTree.Nodes.Add("Fancy Elements Water");
+            enemyTree.Nodes.Add("Fancy Elements Light");
+            enemyTree.Nodes.Add("Fancy Elements Dark");
             enemyTree.Nodes.Add("Gamble Cast");
-            enemyTree.Nodes.Add("Gamble Cast ?");
-            enemyTree.Nodes.Add("Gamble Cast ??");
+            enemyTree.Nodes.Add("Marvelous Fountain (From gamble)");
+            enemyTree.Nodes.Add("Big Marvelous Fountain (From gamble)");
             enemyTree.Nodes.Add("Card Gamble");
             enemyTree.Nodes.Add("Critical Moment");
-            enemyTree.Nodes.Add("Critical Moment 2");
+            enemyTree.Nodes.Add("Critical Moment (Pow Hammer Shower)");
             enemyTree.Nodes.Add("Critical Moment 3");
             enemyTree.Nodes.Add("Critical Moment 4");
             enemyTree.Nodes.Add("Critical Moment 5");
@@ -606,34 +606,38 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Big Rish");
             enemyTree.Nodes.Add("Mahjong");
             enemyTree.Nodes.Add("Glittery Rain");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
+            enemyTree.Nodes.Add("Glittery Rain (Fail)");
+            enemyTree.Nodes.Add("Volcanic Blast");
+            enemyTree.Nodes.Add("Volcanic Blast (Fail)");
+            enemyTree.Nodes.Add("Grand Blow");
+            enemyTree.Nodes.Add("Grand Blow (Fail)");
+            enemyTree.Nodes.Add("Windy Rage");
+            enemyTree.Nodes.Add("Windy Rage (Fail)");
+            enemyTree.Nodes.Add("Hydraulic Raid");
+            enemyTree.Nodes.Add("Hydraulic Raid (Recovery)");
+            enemyTree.Nodes.Add("Hydraulic Raid (Fail)");
+            enemyTree.Nodes.Add("Summon Friends");
+            enemyTree.Nodes.Add("Summon Friends (Rappigs)");
+            enemyTree.Nodes.Add("Summon Friends (Stall)");
+            enemyTree.Nodes.Add("Summon Friends (Stall)");
+            enemyTree.Nodes.Add("Summon Friends (Seagulls)");
+            enemyTree.Nodes.Add("Summon Friends (Octopi)");
+            enemyTree.Nodes.Add("Summon Friends (Mieu)");
+            enemyTree.Nodes.Add("Summon Friends (Penguins)");
+            enemyTree.Nodes.Add("Summon Friends (Penguins)");
+            enemyTree.Nodes.Add("Summon Friends (Nurses)");
+            enemyTree.Nodes.Add("Summon Friends (Quickie)");
+            enemyTree.Nodes.Add("Summon Friends (Angels)");
+            enemyTree.Nodes.Add("Summon Friends (Barbatos)");
+            enemyTree.Nodes.Add("Summon Friends (Barbatos)");
+            enemyTree.Nodes.Add("Summon Friends (Seifer)");
+
+
 
             TreeNodeCollection nodeCollect = enemyTree.Nodes;
             enemyTree.SelectedNode = nodeCollect[0];
+
+            
         }
 
         private void enemyTree_AfterSelect(object sender, TreeViewEventArgs e)
@@ -710,6 +714,19 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxUnknown46.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 328).ToString("D");
             richTextBoxUnknown47.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 332).ToString("D");
             richTextBoxUnknown48.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340).ToString("D");
+            richTextBoxUnknown49.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 180).ToString("D");
+            richTextBoxUnknown50.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 272).ToString("D");
+            richTextBoxUnknown51.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 276).ToString("D");
+            richTextBoxUnknown52.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 344).ToString("D");
+            richTextBoxUnknown53.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 348).ToString("D");
+            richTextBoxUnknown54.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 352).ToString("D");
+            richTextBoxUnknown55.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 356).ToString("D");
+            richTextBoxUnknown56.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 360).ToString("D");
+            richTextBoxUnknown57.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 364).ToString("D");
+            richTextBoxUnknown58.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 368).ToString("D");
+            richTextBoxUnknown59.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 372).ToString("D");
+            richTextBoxUnknown60.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392).ToString("D");
+            
 
 
         }
@@ -794,10 +811,116 @@ namespace Etrian_Odyssey_IV_test
             UInt32.TryParse(richTextBoxUnknown46.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 328); }
             UInt32.TryParse(richTextBoxUnknown47.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 332); }
             UInt32.TryParse(richTextBoxUnknown48.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340); }
+            UInt32.TryParse(richTextBoxUnknown49.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 180); }
+            UInt32.TryParse(richTextBoxUnknown50.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 272); }
+            UInt32.TryParse(richTextBoxUnknown51.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 276); }
+            UInt32.TryParse(richTextBoxUnknown52.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 344); }
+            UInt32.TryParse(richTextBoxUnknown53.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 348); }
+            UInt32.TryParse(richTextBoxUnknown54.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 352); }
+            UInt32.TryParse(richTextBoxUnknown55.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 356); }
+            UInt32.TryParse(richTextBoxUnknown56.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 360); }
+            UInt32.TryParse(richTextBoxUnknown57.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 364); }
+            UInt32.TryParse(richTextBoxUnknown58.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 368); }
+            UInt32.TryParse(richTextBoxUnknown59.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 372); }
+            UInt32.TryParse(richTextBoxUnknown60.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392); }
             
 
             File.WriteAllBytes(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo", enemydata_array); //saves to the path i set, everything in the array/
 
+        }
+
+        private void button6_Click(object sender, EventArgs e) //Skill editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaSkillEditor f2 = new FormVesperiaSkillEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e) //Items and equipment
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\item.svo"))
+            {
+                FormVesperiaItem f2 = new FormVesperiaItem(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e) //Enemy Editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaEnemyEditor f2 = new FormVesperiaEnemyEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void label25_Click(object sender, EventArgs e) //Name Pointer Popup
+        {
+            richTextBoxInfoBox.Text = "Decides what line to read from for displaying \r\n" +
+                "a artes name. Don't fuck with this unless you know what your doing.";
+        }
+
+        private void label5_Click(object sender, EventArgs e) //Damage Formula Text
+        {
+            richTextBoxInfoBox.Text = "The basic attack  formula is Your Atk - (Enemy Def /2) \r\n " +
+                "For artes the damage formula is:  \r\n" +
+                "Usage* ArteDmg% *((P.Atk % -Target P.Def) +(M.Atk % -Target M.Def)  ) \r\n" +
+                "Finally, *0.9~1.1 for damage variance.   \r\n" +
+                "*1.5 if critical.      * Weakness % (Default 1.00)  *Back attack bonus\r\n" +
+                "Note: By default most enemies take 150 % Weakness 50 % Resist \r\n" +
+                "\r\n" +
+                "Arte usage starts at 1, goes upto 3 at 9999 uses.\r\n" +
+                "ArteDmg % is the damage number of the arte as a %\r\n" +
+                "P.Atk % and M.Atk % is that % of the users stat\r\n" +
+                "Minimum for everything is 1.";
+            
+            
+        }
+
+        private void label26_Click(object sender, EventArgs e) //Description Pointer popup
+        {
+            richTextBoxInfoBox.Text = "Decides what line to read from for displaying \r\n" +
+                "a artes description. Don't fuck with this unless you know what your doing.";
+        }
+
+        private void label21_Click(object sender, EventArgs e) //Menu Save ID
+        {
+            richTextBoxInfoBox.Text = "Seems to change where in ram or savefile the game \r\n" +
+                "stores what artes are in what slots on each character. \r\n" +
+                "If your save file has phantom fang set on repede and this number changes \r\n" +
+                "to 4885 then repede now has glacian fang set instead. \r\n" +
+                "Basically worthless to edit.";
+        }
+
+        private void label18_Click(object sender, EventArgs e) //Arte ID
+        {
+            richTextBoxInfoBox.Text = "Decides what arte gets used when using this arte. \r\n" +
+                "You could use this to change what artes each character can use.\r\n" +
+                "The game reads this artes usage count, TP and FS/element for ingame info\r\n" +
+                "but doesn't change the name or description, thats for the pointers.";
         }
     }
 }

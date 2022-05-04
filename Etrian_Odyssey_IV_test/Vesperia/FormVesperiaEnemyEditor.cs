@@ -31,30 +31,30 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("0 Knight Fencer");
             enemyTree.Nodes.Add("1 Knight Guard");
             enemyTree.Nodes.Add("2 Knight Warrior");
-            enemyTree.Nodes.Add("HIDDEN ");
+            enemyTree.Nodes.Add("HIDDEN Knight Fencer H?");
             enemyTree.Nodes.Add("3 Knight Fencer A");
             enemyTree.Nodes.Add("4 Knight Fencer F");
             enemyTree.Nodes.Add("5 Knight Fencer K");
             enemyTree.Nodes.Add("6 Knight Fencer S");
             enemyTree.Nodes.Add("HIDDEN Knight Fencer H");
             enemyTree.Nodes.Add("7 Knight Warrior A");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior F?");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior K?");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior S?");
             enemyTree.Nodes.Add("8 Grain");
             enemyTree.Nodes.Add("9 Knight Lancer");
             enemyTree.Nodes.Add("10 Knight Catcher");
             enemyTree.Nodes.Add("11 Knight Halberd");
             enemyTree.Nodes.Add("12 Knight Halberd A");
             enemyTree.Nodes.Add("13 Knight Halberd F");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
+            enemyTree.Nodes.Add("HIDDEN Knight Halberd K?");
+            enemyTree.Nodes.Add("HIDDEN Knight Halberd S?");
             enemyTree.Nodes.Add("14 Erungar");
             enemyTree.Nodes.Add("15 Erungar (Team Battle)");
             enemyTree.Nodes.Add("16 Erungar Memory");
-            enemyTree.Nodes.Add("HIDDEN ");
+            enemyTree.Nodes.Add("HIDDEN Knight Lancer H?");
             enemyTree.Nodes.Add("17 Knight Lancer A");
-            enemyTree.Nodes.Add("HIDDEN ");
+            enemyTree.Nodes.Add("HIDDEN Knight Lancer F?");
             enemyTree.Nodes.Add("18 Knight Lancer K");
             enemyTree.Nodes.Add("19 Knight Lancer S");
             enemyTree.Nodes.Add("20 Augusto");
@@ -269,81 +269,81 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("226 Heavy Bear");
             enemyTree.Nodes.Add("227 War Wolf");
             enemyTree.Nodes.Add("228 Bloodclaw Wolf");
-            enemyTree.Nodes.Add("229 Skunky");
+            enemyTree.Nodes.Add("229 Basilisk");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("230 ");
-            enemyTree.Nodes.Add("231 ");
-            enemyTree.Nodes.Add("232 ");
-            enemyTree.Nodes.Add("233 ");
-            enemyTree.Nodes.Add("234 ");
-            enemyTree.Nodes.Add("235 ");
+            enemyTree.Nodes.Add("230 Black Basilisk");
+            enemyTree.Nodes.Add("231 Spinosaurus");
+            enemyTree.Nodes.Add("232 Cockatrice");
+            enemyTree.Nodes.Add("233 Passion Cockatrice");
+            enemyTree.Nodes.Add("234 Skunky");
+            enemyTree.Nodes.Add("235 Greater Skunky");
             enemyTree.Nodes.Add("236 Great Cockatrice");
-            enemyTree.Nodes.Add("237 ");
-            enemyTree.Nodes.Add("238 ");
-            enemyTree.Nodes.Add("239 ");
-            enemyTree.Nodes.Add("240 ");
-            enemyTree.Nodes.Add("241 ");
-            enemyTree.Nodes.Add("242 ");
-            enemyTree.Nodes.Add("243 ");
-            enemyTree.Nodes.Add("244 ");
-            enemyTree.Nodes.Add("245 ");
-            enemyTree.Nodes.Add("246 ");
-            enemyTree.Nodes.Add("247 ");
-            enemyTree.Nodes.Add("248 ");
-            enemyTree.Nodes.Add("249 ");
-            enemyTree.Nodes.Add("250 ");
-            enemyTree.Nodes.Add("251 ");
-            enemyTree.Nodes.Add("252 ");
-            enemyTree.Nodes.Add("253 ");
-            enemyTree.Nodes.Add("254 ");
-            enemyTree.Nodes.Add("255 ");
-            enemyTree.Nodes.Add("256 ");
+            enemyTree.Nodes.Add("237 Balloon Ghost");
+            enemyTree.Nodes.Add("238 Jet Balloon");
+            enemyTree.Nodes.Add("239 Floating Filo");
+            enemyTree.Nodes.Add("240 Rosa Gigantia");
+            enemyTree.Nodes.Add("241 Strange Bat");
+            enemyTree.Nodes.Add("242 Fancy Parasol");
+            enemyTree.Nodes.Add("243 Snow Spirit");
+            enemyTree.Nodes.Add("244 Bigger Balloon");
+            enemyTree.Nodes.Add("245 Poltergeist");
+            enemyTree.Nodes.Add("246 Hysteric Purple");
+            enemyTree.Nodes.Add("247 Tentacler");
+            enemyTree.Nodes.Add("248 Octopoise");
+            enemyTree.Nodes.Add("249 Fire Spirit");
+            enemyTree.Nodes.Add("250 Flame Spirit");
+            enemyTree.Nodes.Add("251 Ice Spirit");
+            enemyTree.Nodes.Add("252 Crystal Spirit");
+            enemyTree.Nodes.Add("253 Core Spirit");
+            enemyTree.Nodes.Add("254 Anchorgeist");
+            enemyTree.Nodes.Add("255 Beetle");
+            enemyTree.Nodes.Add("256 Giant Beetle");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("257 ");
-            enemyTree.Nodes.Add("258 ");
-            enemyTree.Nodes.Add("259 ");
-            enemyTree.Nodes.Add("260 ");
-            enemyTree.Nodes.Add("261 ");
-            enemyTree.Nodes.Add("262 ");
-            enemyTree.Nodes.Add("263 ");
-            enemyTree.Nodes.Add("264 ");
-            enemyTree.Nodes.Add("265 ");
-            enemyTree.Nodes.Add("266 ");
-            enemyTree.Nodes.Add("267 ");
-            enemyTree.Nodes.Add("268 ");
-            enemyTree.Nodes.Add("269 ");
-            enemyTree.Nodes.Add("270 ");
-            enemyTree.Nodes.Add("271 ");
-            enemyTree.Nodes.Add("272 ");
+            enemyTree.Nodes.Add("257 Cheiron");
+            enemyTree.Nodes.Add("258 Sawtosaw");
+            enemyTree.Nodes.Add("259 Silver Stag");
+            enemyTree.Nodes.Add("260 Gaina Firefly");
+            enemyTree.Nodes.Add("261 Gold Beetle");
+            enemyTree.Nodes.Add("262 Bee ");
+            enemyTree.Nodes.Add("263 Giant Bee Aersick");
+            enemyTree.Nodes.Add("264 Sonic Bee");
+            enemyTree.Nodes.Add("265 Killer Bee");
+            enemyTree.Nodes.Add("266 Killing Cupid");
+            enemyTree.Nodes.Add("267 Gun Hornet");
+            enemyTree.Nodes.Add("268 Grasshopper");
+            enemyTree.Nodes.Add("269 Death Mantis");
+            enemyTree.Nodes.Add("270 Nuggethopper");
+            enemyTree.Nodes.Add("271 Flora Mantis");
+            enemyTree.Nodes.Add("272 Giant Manis");
             enemyTree.Nodes.Add("273 Chimera Sister");
             enemyTree.Nodes.Add("274 Chimera Brother");
-            enemyTree.Nodes.Add("275 ");
-            enemyTree.Nodes.Add("276 ");
-            enemyTree.Nodes.Add("277 ");
-            enemyTree.Nodes.Add("278 ");
-            enemyTree.Nodes.Add("279 ");
-            enemyTree.Nodes.Add("280 ");
-            enemyTree.Nodes.Add("281 ");
-            enemyTree.Nodes.Add("282 ");
-            enemyTree.Nodes.Add("283 ");
-            enemyTree.Nodes.Add("284 ");
-            enemyTree.Nodes.Add("285 ");
-            enemyTree.Nodes.Add("286 ");
-            enemyTree.Nodes.Add("287 ");
-            enemyTree.Nodes.Add("288 ");
-            enemyTree.Nodes.Add("289 ");
-            enemyTree.Nodes.Add("290 ");
-            enemyTree.Nodes.Add("291 ");
-            enemyTree.Nodes.Add("292 ");
-            enemyTree.Nodes.Add("293 ");
-            enemyTree.Nodes.Add("294 ");
-            enemyTree.Nodes.Add("295 ");
-            enemyTree.Nodes.Add("296 ");
-            enemyTree.Nodes.Add("297 ");
-            enemyTree.Nodes.Add("298 ");
-            enemyTree.Nodes.Add("299 ");
-            enemyTree.Nodes.Add("300 ");
-            enemyTree.Nodes.Add("301 ");
+            enemyTree.Nodes.Add("275 Gentleman");
+            enemyTree.Nodes.Add("276 Gentlematch");
+            enemyTree.Nodes.Add("277 Gentlereplica");
+            enemyTree.Nodes.Add("278 Gentlereplica Team Battle");
+            enemyTree.Nodes.Add("279 Gentlesinger");
+            enemyTree.Nodes.Add("280 Gentlesinger  Team Battle");
+            enemyTree.Nodes.Add("281 Gentlemieu");
+            enemyTree.Nodes.Add("282 Gentlemieu Team Battle");
+            enemyTree.Nodes.Add("283 Golem");
+            enemyTree.Nodes.Add("284 Gear Golem");
+            enemyTree.Nodes.Add("285 Hammer Golem");
+            enemyTree.Nodes.Add("286 Ice Golem");
+            enemyTree.Nodes.Add("287 Gentlegolem");
+            enemyTree.Nodes.Add("288 Gentlegolem Team Battle");
+            enemyTree.Nodes.Add("289 Fake");
+            enemyTree.Nodes.Add("290 Seed");
+            enemyTree.Nodes.Add("291 Capiora");
+            enemyTree.Nodes.Add("292 Pandor");
+            enemyTree.Nodes.Add("293 Quadra");
+            enemyTree.Nodes.Add("294 Murder");
+            enemyTree.Nodes.Add("295 Blade Murder");
+            enemyTree.Nodes.Add("296 Perfect Murder");
+            enemyTree.Nodes.Add("297 Guilty Murder");
+            enemyTree.Nodes.Add("298 Trans Murder");
+            enemyTree.Nodes.Add("299 Amenti");
+            enemyTree.Nodes.Add("300 Naraka");
+            enemyTree.Nodes.Add("301 Hellish");
             enemyTree.Nodes.Add("302 Sheol");
             enemyTree.Nodes.Add("303 Yomi");
             enemyTree.Nodes.Add("304 Valhalla");
@@ -351,88 +351,88 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("306 Kur");
             enemyTree.Nodes.Add("307 Brunhilde");
             enemyTree.Nodes.Add("308 Orpheus");
-            enemyTree.Nodes.Add("309 ");
-            enemyTree.Nodes.Add("310 ");
-            enemyTree.Nodes.Add("311 ");
-            enemyTree.Nodes.Add("312 ");
-            enemyTree.Nodes.Add("313 ");
-            enemyTree.Nodes.Add("314 ");
-            enemyTree.Nodes.Add("315 ");
-            enemyTree.Nodes.Add("316 ");
-            enemyTree.Nodes.Add("317 ");
-            enemyTree.Nodes.Add("318 ");
-            enemyTree.Nodes.Add("319 ");
-            enemyTree.Nodes.Add("320 ");
-            enemyTree.Nodes.Add("321 ");
-            enemyTree.Nodes.Add("322 ");
+            enemyTree.Nodes.Add("309 Mandragora");
+            enemyTree.Nodes.Add("310 Mandragora Aersick");
+            enemyTree.Nodes.Add("311 Agaric");
+            enemyTree.Nodes.Add("312 Dryad");
+            enemyTree.Nodes.Add("313 Alraune");
+            enemyTree.Nodes.Add("314 Mandrawigle");
+            enemyTree.Nodes.Add("315 Tweeny");
+            enemyTree.Nodes.Add("316 Superstar R");
+            enemyTree.Nodes.Add("317 Superstar R Team Battle");
+            enemyTree.Nodes.Add("318 Superstar B");
+            enemyTree.Nodes.Add("319 Superstar B Team Battle");
+            enemyTree.Nodes.Add("320 Superstar G");
+            enemyTree.Nodes.Add("321 Superstar G Team Battle");
+            enemyTree.Nodes.Add("322 Superstar O");
             enemyTree.Nodes.Add("323 Superstar O (Team Battle)");
-            enemyTree.Nodes.Add("324 ");
-            enemyTree.Nodes.Add("325 ");
-            enemyTree.Nodes.Add("326 ");
-            enemyTree.Nodes.Add("327 ");
-            enemyTree.Nodes.Add("328 ");
-            enemyTree.Nodes.Add("329 ");
-            enemyTree.Nodes.Add("330 ");
-            enemyTree.Nodes.Add("331 ");
-            enemyTree.Nodes.Add("332 ");
-            enemyTree.Nodes.Add("333 ");
+            enemyTree.Nodes.Add("324 Superstar D");
+            enemyTree.Nodes.Add("325 Superstar D Team Battle");
+            enemyTree.Nodes.Add("326 Superstar S");
+            enemyTree.Nodes.Add("327 Superstar  Team BattleS");
+            enemyTree.Nodes.Add("328 Green Roper");
+            enemyTree.Nodes.Add("329 Red Roper");
+            enemyTree.Nodes.Add("330 Blue Roper");
+            enemyTree.Nodes.Add("331 Yellow Roper");
+            enemyTree.Nodes.Add("332 Goliath");
+            enemyTree.Nodes.Add("333 Goliath Memory");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("334 ");
-            enemyTree.Nodes.Add("335 ");
-            enemyTree.Nodes.Add("336 ");
+            enemyTree.Nodes.Add("334 Poseidon");
+            enemyTree.Nodes.Add("335 Poseidon Memory");
+            enemyTree.Nodes.Add("336 Gattuso");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("337 ");
-            enemyTree.Nodes.Add("338 ");
+            enemyTree.Nodes.Add("337 Gattuso Memory");
+            enemyTree.Nodes.Add("338 Gattuso Cub");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("339 ");
-            enemyTree.Nodes.Add("340 ");
-            enemyTree.Nodes.Add("341 ");
-            enemyTree.Nodes.Add("342 ");
-            enemyTree.Nodes.Add("343 ");
-            enemyTree.Nodes.Add("344 ");
-            enemyTree.Nodes.Add("345 ");
-            enemyTree.Nodes.Add("346 ");
-            enemyTree.Nodes.Add("347 ");
-            enemyTree.Nodes.Add("348 ");
-            enemyTree.Nodes.Add("349 ");
-            enemyTree.Nodes.Add("350 ");
-            enemyTree.Nodes.Add("351 ");
-            enemyTree.Nodes.Add("352 ");
-            enemyTree.Nodes.Add("353 ");
-            enemyTree.Nodes.Add("354 ");
-            enemyTree.Nodes.Add("355 ");
-            enemyTree.Nodes.Add("356 ");
-            enemyTree.Nodes.Add("357 ");
-            enemyTree.Nodes.Add("358 ");
-            enemyTree.Nodes.Add("359 ");
-            enemyTree.Nodes.Add("360 ");
-            enemyTree.Nodes.Add("361 ");
-            enemyTree.Nodes.Add("362 ");
-            enemyTree.Nodes.Add("363 ");
-            enemyTree.Nodes.Add("364 ");
+            enemyTree.Nodes.Add("339 Gattuso Memory");
+            enemyTree.Nodes.Add("340 Green Menace");
+            enemyTree.Nodes.Add("341 Green Menace Memory");
+            enemyTree.Nodes.Add("342 Fenrir");
+            enemyTree.Nodes.Add("343 Fenrir Memory");
+            enemyTree.Nodes.Add("344 Dreaded Giant");
+            enemyTree.Nodes.Add("345 Gusios");
+            enemyTree.Nodes.Add("346 Gusios Memory");
+            enemyTree.Nodes.Add("347 Gigalarva");
+            enemyTree.Nodes.Add("348 Gigalarva Memory");
+            enemyTree.Nodes.Add("349 Cursed Wanderer");
+            enemyTree.Nodes.Add("350 Cursed Wanderer");
+            enemyTree.Nodes.Add("351 Cursed Wanderer Memory");
+            enemyTree.Nodes.Add("352 Hermit Drill");
+            enemyTree.Nodes.Add("353 Hermit Memory");
+            enemyTree.Nodes.Add("354 Pteropus");
+            enemyTree.Nodes.Add("355 Attack Bat");
+            enemyTree.Nodes.Add("356 Magic Bat");
+            enemyTree.Nodes.Add("357 Leader Bat");
+            enemyTree.Nodes.Add("358 Pteropus Memory");
+            enemyTree.Nodes.Add("359 Attack Bat Memory");
+            enemyTree.Nodes.Add("360 Magic Bat Memory");
+            enemyTree.Nodes.Add("361 Leader Bat Memory");
+            enemyTree.Nodes.Add("362 Pterobronc");
+            enemyTree.Nodes.Add("363 Pterobronc Memory");
+            enemyTree.Nodes.Add("364 Outbreaker");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("365 ");
-            enemyTree.Nodes.Add("366 ");
-            enemyTree.Nodes.Add("367 ");
-            enemyTree.Nodes.Add("368 ");
+            enemyTree.Nodes.Add("365 Breaker Memory");
+            enemyTree.Nodes.Add("366 Daybreaker");
+            enemyTree.Nodes.Add("367 Nightbreaker");
+            enemyTree.Nodes.Add("368 Belius");
             enemyTree.Nodes.Add("369 Belius Memory");
-            enemyTree.Nodes.Add("370 ");
-            enemyTree.Nodes.Add("371 ");
-            enemyTree.Nodes.Add("372 ");
-            enemyTree.Nodes.Add("373 ");
-            enemyTree.Nodes.Add("374 ");
-            enemyTree.Nodes.Add("375 ");
-            enemyTree.Nodes.Add("376 ");
-            enemyTree.Nodes.Add("377 ");
-            enemyTree.Nodes.Add("378 ");
-            enemyTree.Nodes.Add("379 ");
-            enemyTree.Nodes.Add("380 ");
-            enemyTree.Nodes.Add("381 ");
-            enemyTree.Nodes.Add("382 ");
-            enemyTree.Nodes.Add("383 ");
-            enemyTree.Nodes.Add("384 ");
-            enemyTree.Nodes.Add("385 ");
-            enemyTree.Nodes.Add("386 ");
+            enemyTree.Nodes.Add("370 Belius Double");
+            enemyTree.Nodes.Add("371 Baitojoh");
+            enemyTree.Nodes.Add("372 Baitojoh");
+            enemyTree.Nodes.Add("373 Khroma Dragon");
+            enemyTree.Nodes.Add("374 Khroma Memory");
+            enemyTree.Nodes.Add("375 Griffin");
+            enemyTree.Nodes.Add("376 Griffin Memory");
+            enemyTree.Nodes.Add("377 Chimera Butterfly");
+            enemyTree.Nodes.Add("378 Chimera Memory");
+            enemyTree.Nodes.Add("379 Medusa Butterfly");
+            enemyTree.Nodes.Add("380 Medusa Memory");
+            enemyTree.Nodes.Add("381 Brutal");
+            enemyTree.Nodes.Add("382 Brucis");
+            enemyTree.Nodes.Add("383 Brucis Memory");
+            enemyTree.Nodes.Add("384 Bloody Beak");
+            enemyTree.Nodes.Add("385 Bloody Beak Memory");
+            enemyTree.Nodes.Add("386 Ohma");
             enemyTree.Nodes.Add("387 Sword Dancer");
             enemyTree.Nodes.Add("388 Sword Dancer");
             enemyTree.Nodes.Add("389 Sword Dancer");
@@ -446,101 +446,104 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("397 Spiral Draco (Body)");
             enemyTree.Nodes.Add("398 Spiral Draco (Left Tail)");
             enemyTree.Nodes.Add("399 Spiral Draco (Right Tail)");
-            enemyTree.Nodes.Add("400 ");
-            enemyTree.Nodes.Add("401 ");
-            enemyTree.Nodes.Add("402 ");
-            enemyTree.Nodes.Add("403 ");
-            enemyTree.Nodes.Add("404 ");
-            enemyTree.Nodes.Add("405 ");
-            enemyTree.Nodes.Add("406 ");
-            enemyTree.Nodes.Add("407 ");
-            enemyTree.Nodes.Add("408 ");
-            enemyTree.Nodes.Add("409 ");
-            enemyTree.Nodes.Add("410 ");
-            enemyTree.Nodes.Add("411 ");
-            enemyTree.Nodes.Add("412 ");
-            enemyTree.Nodes.Add("413 ");
-            enemyTree.Nodes.Add("414 ");
-            enemyTree.Nodes.Add("415 ");
-            enemyTree.Nodes.Add("416 ");
-            enemyTree.Nodes.Add("417 ");
-            enemyTree.Nodes.Add("418 ");
-            enemyTree.Nodes.Add("419 ");
-            enemyTree.Nodes.Add("420 ");
-            enemyTree.Nodes.Add("421 ");
-            enemyTree.Nodes.Add("422 ");
-            enemyTree.Nodes.Add("423 ");
-            enemyTree.Nodes.Add("424 ");
-            enemyTree.Nodes.Add("425 ");
-            enemyTree.Nodes.Add("426 ");
-            enemyTree.Nodes.Add("427 ");
-            enemyTree.Nodes.Add("428 ");
-            enemyTree.Nodes.Add("429 ");
-            enemyTree.Nodes.Add("430 ");
-            enemyTree.Nodes.Add("431 ");
-            enemyTree.Nodes.Add("432 ");
-            enemyTree.Nodes.Add("433 ");
-            enemyTree.Nodes.Add("434 ");
-            enemyTree.Nodes.Add("435 ");
-            enemyTree.Nodes.Add("436 ");
-            enemyTree.Nodes.Add("437 ");
+            enemyTree.Nodes.Add("400 Duke");
+            enemyTree.Nodes.Add("401 Duke");
+            enemyTree.Nodes.Add("402 Radiant Winged One");
+            enemyTree.Nodes.Add("403 Duke Memory");
+            enemyTree.Nodes.Add("404 Alexei");
+            enemyTree.Nodes.Add("405 Alexei Memory");
+            enemyTree.Nodes.Add("406 Barbos");
+            enemyTree.Nodes.Add("407 Barbos Memory");
+            enemyTree.Nodes.Add("408 Zagi");
+            enemyTree.Nodes.Add("409 Zagi");
+            enemyTree.Nodes.Add("410 Zagi");
+            enemyTree.Nodes.Add("411 Zagi");
+            enemyTree.Nodes.Add("412 Zagi");
+            enemyTree.Nodes.Add("413 Zagi (New)");
+            enemyTree.Nodes.Add("414 Zagi Memory");
+            enemyTree.Nodes.Add("415 Yeager");
+            enemyTree.Nodes.Add("416 Yeager");
+            enemyTree.Nodes.Add("417 Yeager");
+            enemyTree.Nodes.Add("418 Yeager Memory");
+            enemyTree.Nodes.Add("419 Gauche");
+            enemyTree.Nodes.Add("420 Droite");
+            enemyTree.Nodes.Add("421 Gauche Coliseum");
+            enemyTree.Nodes.Add("422 Droite Coliseum");
+            enemyTree.Nodes.Add("423 Clint");
+            enemyTree.Nodes.Add("424 Clint Coliseum");
+            enemyTree.Nodes.Add("425 Clint of the Hunting Blades Team Battle");
+            enemyTree.Nodes.Add("426 Clint Memory");
+            enemyTree.Nodes.Add("427 Tison");
+            enemyTree.Nodes.Add("428 Tison Coliseum");
+            enemyTree.Nodes.Add("429 Tison of the Hunting Blades Team Battle");
+            enemyTree.Nodes.Add("430 Tison Memory");
+            enemyTree.Nodes.Add("431 Nan");
+            enemyTree.Nodes.Add("432 Nan Coliseum");
+            enemyTree.Nodes.Add("433 Nan Coliseum 2");
+            enemyTree.Nodes.Add("434 Nan of the Hunting Blades Team Battle");
+            enemyTree.Nodes.Add("435 Nan Memory");
+            enemyTree.Nodes.Add("436 Don");
+            enemyTree.Nodes.Add("437 Don Memory");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("438 ");
-            enemyTree.Nodes.Add("439 ");
-            enemyTree.Nodes.Add("440 ");
-            enemyTree.Nodes.Add("441 ");
-            enemyTree.Nodes.Add("442 ");
-            enemyTree.Nodes.Add("443 ");
+            enemyTree.Nodes.Add("438 Yuri Coliseum");
+            enemyTree.Nodes.Add("439 Yuri Team Battle");
+            enemyTree.Nodes.Add("440 Estellise");
+            enemyTree.Nodes.Add("441 Estellise");
+            enemyTree.Nodes.Add("442 Estellise Team Battle");
+            enemyTree.Nodes.Add("443 Estellise Memory");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("444 ");
-            enemyTree.Nodes.Add("445 ");
+            enemyTree.Nodes.Add("444 King Kaboom");
+            enemyTree.Nodes.Add("445 Karol Team Battle");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("446 ");
+            enemyTree.Nodes.Add("446 Rita Team Battle");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("447 ");
-            enemyTree.Nodes.Add("448 ");
-            enemyTree.Nodes.Add("449 ");
-            enemyTree.Nodes.Add("450 ");
+            enemyTree.Nodes.Add("447 Raven Team Battle");
+            enemyTree.Nodes.Add("448 Schwann");
+            enemyTree.Nodes.Add("449 Schwann Team Battle");
+            enemyTree.Nodes.Add("450 Schwann Memory");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("451 ");
+            enemyTree.Nodes.Add("451 Judith Team Battle");
             enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("452 ");
-            enemyTree.Nodes.Add("453 ");
-            enemyTree.Nodes.Add("454 ");
-            enemyTree.Nodes.Add("455 ");
-            enemyTree.Nodes.Add("456 ");
-            enemyTree.Nodes.Add("457 ");
-            enemyTree.Nodes.Add("458 ");
-            enemyTree.Nodes.Add("459 ");
-            enemyTree.Nodes.Add("460 ");
-            enemyTree.Nodes.Add("461 ");
-            enemyTree.Nodes.Add("462 ");
-            enemyTree.Nodes.Add("463 ");
-            enemyTree.Nodes.Add("464 ");
-            enemyTree.Nodes.Add("465 ");
-            enemyTree.Nodes.Add("466 ");
-            enemyTree.Nodes.Add("467 ");
-            enemyTree.Nodes.Add("468 ");
-            enemyTree.Nodes.Add("469 ");
-            enemyTree.Nodes.Add("470 ");
-            enemyTree.Nodes.Add("471 ");
-            enemyTree.Nodes.Add("472 ");
-            enemyTree.Nodes.Add("473 ");
-            enemyTree.Nodes.Add("474 ");
-            enemyTree.Nodes.Add("475 ");
-            enemyTree.Nodes.Add("476 ");
-            enemyTree.Nodes.Add("477 ");
-            enemyTree.Nodes.Add("478 ");
-            enemyTree.Nodes.Add("479 ");
-            enemyTree.Nodes.Add("480 ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
-            enemyTree.Nodes.Add("HIDDEN ");
+            enemyTree.Nodes.Add("452 Repede Team Battle");
+            enemyTree.Nodes.Add("453 Flynn");
+            enemyTree.Nodes.Add("454 Flynn");
+            enemyTree.Nodes.Add("455 Flynn Coliseum");
+            enemyTree.Nodes.Add("456 Flynn Team Battle");
+            enemyTree.Nodes.Add("457 Flynn Memory");
+            enemyTree.Nodes.Add("458 Patty Team Battle");
+            enemyTree.Nodes.Add("459 Adecor              Event 1");
+            enemyTree.Nodes.Add("460 Boccos              Event 1");
+            enemyTree.Nodes.Add("461 Adecor");
+            enemyTree.Nodes.Add("462 Boccos");
+            enemyTree.Nodes.Add("463 Adecor");
+            enemyTree.Nodes.Add("464 Boccos");
+            enemyTree.Nodes.Add("465 Adecor Coliseum");
+            enemyTree.Nodes.Add("466 Boccos Coliseum");
+            enemyTree.Nodes.Add("467 Adecor Team Battle");
+            enemyTree.Nodes.Add("468 Boccos Team Battle");
+            enemyTree.Nodes.Add("469 Adecor Memory");
+            enemyTree.Nodes.Add("470 Boccos Memory");
+            enemyTree.Nodes.Add("471 Leblanc Team Battle");
+            enemyTree.Nodes.Add("472 Traitor to Heaven");
+            enemyTree.Nodes.Add("473 Traitor To Heaven");
+            enemyTree.Nodes.Add("474 Traitor To Heaven Team Battle");
+            enemyTree.Nodes.Add("475 Killer of Heroes");
+            enemyTree.Nodes.Add("476 Killer of Heroes Team Battle");
+            enemyTree.Nodes.Add("477 Time Traveller");
+            enemyTree.Nodes.Add("478 Time Traveller Team Battle");
+            enemyTree.Nodes.Add("479 Sorrowful Queen of Darkness");
+            enemyTree.Nodes.Add("480 Sorrowful Queen of Darkness Team Battle");
+            enemyTree.Nodes.Add("HIDDEN Billybally Leaf");
+            enemyTree.Nodes.Add("HIDDEN Bridge Support?");
+            enemyTree.Nodes.Add("HIDDEN Lamp?");
+            enemyTree.Nodes.Add("HIDDEN Karalow X?");
+            enemyTree.Nodes.Add("HIDDEN Treasure Chest (Blue)");
+            enemyTree.Nodes.Add("HIDDEN Treasure Chest (Red)");
+            enemyTree.Nodes.Add("HIDDEN Treasure Chest (Light)");
+            enemyTree.Nodes.Add("HIDDEN Treasure Chest (Dark)");
+            enemyTree.Nodes.Add("HIDDEN Treasure Chest (Mystery)");
+
+            
 
             TreeNodeCollection nodeCollect = enemyTree.Nodes;
             enemyTree.SelectedNode = nodeCollect[0];
@@ -571,7 +574,7 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxWater.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 188).ToString("D");
             richTextBoxLight.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 192).ToString("D");
             richTextBoxDark.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 196).ToString("D");
-            richTextBoxUnknown3.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 200).ToString("D");
+            richTextBoxDArms.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 200).ToString("D");
 
             richTextBoxExp.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 204).ToString("D");
             richTextBoxGald.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 208).ToString("D");
@@ -610,6 +613,48 @@ namespace Etrian_Odyssey_IV_test
 
             richTextBoxUnknown30.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 164).ToString("D");
             richTextBoxUnknown31.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 136).ToString("D");
+            richTextBoxUnknown32.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 88).ToString("D");
+            richTextBoxUnknown33.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 28).ToString("D");
+            richTextBoxUnknown34.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 24).ToString("D");
+            richTextBoxUnknown35.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 140).ToString("D");
+            richTextBoxUnknown36.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 144).ToString("D");
+            richTextBoxUnknown37.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 148).ToString("D");
+            richTextBoxUnknown38.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 0).ToString("D");
+            richTextBoxUnknown39.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 4).ToString("D");
+            richTextBoxUnknown40.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 8).ToString("D");
+            richTextBoxUnknown41.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 12).ToString("D");
+            richTextBoxUnknown42.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 16).ToString("D");
+            richTextBoxUnknown43.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 20).ToString("D");
+
+            richTextBoxUnknown44.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 32).ToString("D");
+            richTextBoxUnknown45.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 36).ToString("D");
+            richTextBoxUnknown46.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 40).ToString("D");
+            richTextBoxUnknown47.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 44).ToString("D");
+            richTextBoxUnknown48.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 48).ToString("D");
+            richTextBoxUnknown49.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 52).ToString("D");
+            richTextBoxUnknown50.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 56).ToString("D");
+            richTextBoxUnknown51.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 60).ToString("D");
+            richTextBoxUnknown52.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 68).ToString("D");
+            richTextBoxUnknown53.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 72).ToString("D");
+            richTextBoxUnknown54.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 80).ToString("D");
+            richTextBoxUnknown55.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 92).ToString("D");
+
+
+            richTextBoxEMaxHP.Text = Convert.ToString(Convert.ToInt32(richTextBoxMaxHP.Text) * 0.7);
+            richTextBoxEPAtk.Text = Convert.ToString(Convert.ToInt32(richTextBoxPAtk.Text) * 0.7);
+            richTextBoxEPDef.Text = Convert.ToString(Convert.ToInt32(richTextBoxPDef.Text) * 0.7);
+            richTextBoxEMAtk.Text = Convert.ToString(Convert.ToInt32(richTextBoxMAtk.Text) * 0.7);
+            richTextBoxEMDef.Text = Convert.ToString(Convert.ToInt32(richTextBoxMDef.Text) * 0.7);
+
+            richTextBoxHMaxHP.Text = Convert.ToString(Convert.ToInt32(richTextBoxMaxHP.Text) * 2.5);
+            richTextBoxHPAtk.Text = Convert.ToString(Convert.ToInt32(richTextBoxPAtk.Text) * 1.2);
+            richTextBoxHMAtk.Text = Convert.ToString(Convert.ToInt32(richTextBoxMAtk.Text) * 1.2);
+            
+            richTextBoxUMaxHP.Text = Convert.ToString(Convert.ToInt32(richTextBoxMaxHP.Text) * 5);
+            richTextBoxUPAtk.Text = Convert.ToString(Convert.ToInt32(richTextBoxPAtk.Text) * 3.5);
+            richTextBoxUPDef.Text = Convert.ToString(Convert.ToInt32(richTextBoxPDef.Text) * 2.5);
+            richTextBoxUMAtk.Text = Convert.ToString(Convert.ToInt32(richTextBoxMAtk.Text) * 3);
+            richTextBoxUMDef.Text = Convert.ToString(Convert.ToInt32(richTextBoxMDef.Text) * 2.5);
 
         }
 
@@ -640,7 +685,7 @@ namespace Etrian_Odyssey_IV_test
             UInt32.TryParse(richTextBoxWater.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 188); }
             UInt32.TryParse(richTextBoxLight.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 192); }
             UInt32.TryParse(richTextBoxDark.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 196); }
-            UInt32.TryParse(richTextBoxUnknown3.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 200); }
+            UInt32.TryParse(richTextBoxDArms.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 200); }
 
             UInt32.TryParse(richTextBoxExp.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 204); }
             UInt32.TryParse(richTextBoxGald.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 208); }
@@ -679,6 +724,33 @@ namespace Etrian_Odyssey_IV_test
 
             UInt32.TryParse(richTextBoxUnknown30.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 164); }
             UInt32.TryParse(richTextBoxUnknown30.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 136); }
+            UInt32.TryParse(richTextBoxUnknown32.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 88); }
+            UInt32.TryParse(richTextBoxUnknown33.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 28); }
+            UInt32.TryParse(richTextBoxUnknown34.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 24); }
+            UInt32.TryParse(richTextBoxUnknown35.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 140); }
+            UInt32.TryParse(richTextBoxUnknown36.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 144); }
+            UInt32.TryParse(richTextBoxUnknown37.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 148); }
+
+            UInt32.TryParse(richTextBoxUnknown38.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 0); }
+            UInt32.TryParse(richTextBoxUnknown39.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 4); }
+            UInt32.TryParse(richTextBoxUnknown40.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 8); }
+            UInt32.TryParse(richTextBoxUnknown41.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 12); }
+            UInt32.TryParse(richTextBoxUnknown42.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 16); }
+            UInt32.TryParse(richTextBoxUnknown43.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 20); }
+
+            UInt32.TryParse(richTextBoxUnknown44.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 32); }
+            UInt32.TryParse(richTextBoxUnknown45.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 36); }
+            UInt32.TryParse(richTextBoxUnknown46.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 40); }
+            UInt32.TryParse(richTextBoxUnknown47.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 44); }
+            UInt32.TryParse(richTextBoxUnknown48.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 48); }
+            UInt32.TryParse(richTextBoxUnknown49.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 52); }
+            UInt32.TryParse(richTextBoxUnknown50.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 56); }
+            UInt32.TryParse(richTextBoxUnknown51.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 60); }
+            UInt32.TryParse(richTextBoxUnknown52.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 68); }
+            UInt32.TryParse(richTextBoxUnknown53.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 72); }
+            UInt32.TryParse(richTextBoxUnknown54.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 80); }
+            UInt32.TryParse(richTextBoxUnknown55.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 92); }
+            
 
             File.WriteAllBytes(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo", enemydata_array); //saves to the path i set, everything in the array/        
         }
@@ -686,6 +758,54 @@ namespace Etrian_Odyssey_IV_test
         private void label22_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e) //Arte Editor Button
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaArteEditor f2 = new FormVesperiaArteEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e) //Skill Editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaSkillEditor f2 = new FormVesperiaSkillEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e) //Items and Equipment
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\item.svo"))
+            {
+                FormVesperiaItem f2 = new FormVesperiaItem(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
         }
     }
 }

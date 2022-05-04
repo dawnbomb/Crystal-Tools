@@ -254,38 +254,38 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("SPE21");
             enemyTree.Nodes.Add("SPE18");
             enemyTree.Nodes.Add("SPE20");
-            enemyTree.Nodes.Add("HAM00");
-            enemyTree.Nodes.Add("HAM00");
-            enemyTree.Nodes.Add("HAM01");
-            enemyTree.Nodes.Add("HAM01");
-            enemyTree.Nodes.Add("HAM02");
-            enemyTree.Nodes.Add("HAM02");
-            enemyTree.Nodes.Add("HAM02");
-            enemyTree.Nodes.Add("HAM03");
-            enemyTree.Nodes.Add("HAM03");
-            enemyTree.Nodes.Add("HAM04");
-            enemyTree.Nodes.Add("HAM05");
-            enemyTree.Nodes.Add("HAM05");
-            enemyTree.Nodes.Add("HAM05");
-            enemyTree.Nodes.Add("HAM06");
-            enemyTree.Nodes.Add("HAM07");
-            enemyTree.Nodes.Add("HAM07");
-            enemyTree.Nodes.Add("HAM07");
-            enemyTree.Nodes.Add("HAM08");
-            enemyTree.Nodes.Add("HAM09");
-            enemyTree.Nodes.Add("HAM10");
-            enemyTree.Nodes.Add("HAM10");
-            enemyTree.Nodes.Add("HAM10");
-            enemyTree.Nodes.Add("HAM11");
-            enemyTree.Nodes.Add("HAM12");
-            enemyTree.Nodes.Add("HAM12");
-            enemyTree.Nodes.Add("HAM13");
-            enemyTree.Nodes.Add("CLU00");
-            enemyTree.Nodes.Add("CLU01");
-            enemyTree.Nodes.Add("CLU02");
-            enemyTree.Nodes.Add("CLU03");
-            enemyTree.Nodes.Add("CLU04");
-            enemyTree.Nodes.Add("CLU05");
+            enemyTree.Nodes.Add("HAM00 Wood Maul");
+            enemyTree.Nodes.Add("HAM00 Wood Maul +1");
+            enemyTree.Nodes.Add("HAM01 Heavy Maul");
+            enemyTree.Nodes.Add("HAM01 Heavy Maul +1");
+            enemyTree.Nodes.Add("HAM02 Spike Hammer");
+            enemyTree.Nodes.Add("HAM02 Spike Hammer +1a");
+            enemyTree.Nodes.Add("HAM02 Spike Hammer +1b");
+            enemyTree.Nodes.Add("HAM03 Iron Hammer");
+            enemyTree.Nodes.Add("HAM03 Iron Hammer +1");
+            enemyTree.Nodes.Add("HAM04 Deadly Horn");
+            enemyTree.Nodes.Add("HAM05 Guardian Stamp");
+            enemyTree.Nodes.Add("HAM05 Guardian Stamp +1a");
+            enemyTree.Nodes.Add("HAM05 Guardian Stamp +1b");
+            enemyTree.Nodes.Add("HAM06 Spinning Drill Hammer");
+            enemyTree.Nodes.Add("HAM07 Pile Driver");
+            enemyTree.Nodes.Add("HAM07 Pile Driver +1a");
+            enemyTree.Nodes.Add("HAM07 Pile Driver +1b");
+            enemyTree.Nodes.Add("HAM08 765kh Hammer");
+            enemyTree.Nodes.Add("HAM09 Rending Hammer");
+            enemyTree.Nodes.Add("HAM10 Mjolnir");
+            enemyTree.Nodes.Add("HAM10 Mjolnir +1a");
+            enemyTree.Nodes.Add("HAM10 Mjolnir +1b");
+            enemyTree.Nodes.Add("HAM11 Golden Hammer");
+            enemyTree.Nodes.Add("HAM12 Karolian Hammer");
+            enemyTree.Nodes.Add("HAM12 Karolian Hammer +1");
+            enemyTree.Nodes.Add("HAM13 Rising Flame");
+            enemyTree.Nodes.Add("CLU00 Oar");
+            enemyTree.Nodes.Add("CLU01 War Staff");
+            enemyTree.Nodes.Add("CLU02 Tribal Guard");
+            enemyTree.Nodes.Add("CLU03 Serpent Staff");
+            enemyTree.Nodes.Add("CLU04 Shakujo");
+            enemyTree.Nodes.Add("CLU05 Full Metal Staff");
             enemyTree.Nodes.Add("CLU06");
             enemyTree.Nodes.Add("CLU07");
             enemyTree.Nodes.Add("CLU07");
@@ -439,24 +439,24 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("BOH07");
             enemyTree.Nodes.Add("BOH08");
             enemyTree.Nodes.Add("BOH09");
-            enemyTree.Nodes.Add("DOS00");
-            enemyTree.Nodes.Add("DOS00");
-            enemyTree.Nodes.Add("DOS01");
-            enemyTree.Nodes.Add("DOS01");
-            enemyTree.Nodes.Add("DOS03");
-            enemyTree.Nodes.Add("DOS03");
-            enemyTree.Nodes.Add("DOS06");
-            enemyTree.Nodes.Add("DOS06");
-            enemyTree.Nodes.Add("DOS06");
-            enemyTree.Nodes.Add("DOS06");
-            enemyTree.Nodes.Add("DOS07");
-            enemyTree.Nodes.Add("DOS07");
-            enemyTree.Nodes.Add("DOS07");
-            enemyTree.Nodes.Add("DOS07");
-            enemyTree.Nodes.Add("DOS08");
-            enemyTree.Nodes.Add("DOS08");
-            enemyTree.Nodes.Add("DOS08");
-            enemyTree.Nodes.Add("DOS08");
+            enemyTree.Nodes.Add("DOS00 Kogarashi");
+            enemyTree.Nodes.Add("DOS00 Kogarashi +1");
+            enemyTree.Nodes.Add("DOS01 Karakaze");
+            enemyTree.Nodes.Add("DOS01 Karakaze +1");
+            enemyTree.Nodes.Add("DOS03 Ohka");
+            enemyTree.Nodes.Add("DOS03 Ohka +1");
+            enemyTree.Nodes.Add("DOS06 Tama-hagane");
+            enemyTree.Nodes.Add("DOS06 Tama-hagane +1");
+            enemyTree.Nodes.Add("DOS06 Tama-hagane +2a");
+            enemyTree.Nodes.Add("DOS06 Tama-hagane +2a");
+            enemyTree.Nodes.Add("DOS07 Kotaro");
+            enemyTree.Nodes.Add("DOS07 Kotaro +1");
+            enemyTree.Nodes.Add("DOS07 Kotaro +2a");
+            enemyTree.Nodes.Add("DOS07 Kotaro +2b");
+            enemyTree.Nodes.Add("DOS08 Holy Raven");
+            enemyTree.Nodes.Add("DOS08 Holy Raven +1");
+            enemyTree.Nodes.Add("DOS08 Holy Raven +2a");
+            enemyTree.Nodes.Add("DOS08 Holy Raven +2b");
             enemyTree.Nodes.Add("DOS10");
             enemyTree.Nodes.Add("DOS10");
             enemyTree.Nodes.Add("DOS10");
@@ -617,24 +617,24 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("GUN03 Pirate's Gun: Cerulean");
             enemyTree.Nodes.Add("GUN04 Pirate's Gun: White Wave");
             enemyTree.Nodes.Add("GUN05 Pirate's Gun: Black Thunder");
-            enemyTree.Nodes.Add("ARM00");
-            enemyTree.Nodes.Add("ARM01");
-            enemyTree.Nodes.Add("ARM02");
-            enemyTree.Nodes.Add("ARM03");
-            enemyTree.Nodes.Add("ARM04");
-            enemyTree.Nodes.Add("ARM05");
-            enemyTree.Nodes.Add("ARM06");
-            enemyTree.Nodes.Add("ARM07");
-            enemyTree.Nodes.Add("ARM08");
-            enemyTree.Nodes.Add("ARM09");
-            enemyTree.Nodes.Add("ARM10");
-            enemyTree.Nodes.Add("ARM11");
-            enemyTree.Nodes.Add("ARM12");
-            enemyTree.Nodes.Add("ARM13");
-            enemyTree.Nodes.Add("ARM14");
-            enemyTree.Nodes.Add("ARM15");
-            enemyTree.Nodes.Add("ARM16");
-            enemyTree.Nodes.Add("ARM17");
+            enemyTree.Nodes.Add("ARM00 Leather Armor");
+            enemyTree.Nodes.Add("ARM01 Hard Mail");
+            enemyTree.Nodes.Add("ARM02 Ring Mail");
+            enemyTree.Nodes.Add("ARM03 Iron Mail");
+            enemyTree.Nodes.Add("ARM04 Chain Mail");
+            enemyTree.Nodes.Add("ARM05 Lamellar Leather");
+            enemyTree.Nodes.Add("ARM06 Splint Mail");
+            enemyTree.Nodes.Add("ARM07 Breastplate");
+            enemyTree.Nodes.Add("ARM08 Battle Suit");
+            enemyTree.Nodes.Add("ARM09 Knight Armor");
+            enemyTree.Nodes.Add("ARM10 Absolute");
+            enemyTree.Nodes.Add("ARM11 Silver Mail");
+            enemyTree.Nodes.Add("ARM12 Full Plate");
+            enemyTree.Nodes.Add("ARM13 Gothic Plate");
+            enemyTree.Nodes.Add("ARM14 Mythril Plate");
+            enemyTree.Nodes.Add("ARM15 Rare Plate");
+            enemyTree.Nodes.Add("ARM16 Gold Armor");
+            enemyTree.Nodes.Add("ARM17 Body Paint");
             enemyTree.Nodes.Add("ARM18");
             enemyTree.Nodes.Add("ARM19");
             enemyTree.Nodes.Add("ARM20");
@@ -644,14 +644,14 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("ARM24 Hyper Armor?");
             enemyTree.Nodes.Add("ARM25");
             enemyTree.Nodes.Add("ARM26");
-            enemyTree.Nodes.Add("GUD00");
-            enemyTree.Nodes.Add("GUD01");
-            enemyTree.Nodes.Add("GUD02");
-            enemyTree.Nodes.Add("GUD03");
-            enemyTree.Nodes.Add("GUD04");
-            enemyTree.Nodes.Add("GUD05");
-            enemyTree.Nodes.Add("GUD06");
-            enemyTree.Nodes.Add("GUD07");
+            enemyTree.Nodes.Add("GUD00 Leather Guard");
+            enemyTree.Nodes.Add("GUD01 Iron Guard");
+            enemyTree.Nodes.Add("GUD02 Chain Guard");
+            enemyTree.Nodes.Add("GUD03 Lamellar Guard");
+            enemyTree.Nodes.Add("GUD04 Half Guard");
+            enemyTree.Nodes.Add("GUD05 Breast Guard");
+            enemyTree.Nodes.Add("GUD06 Royal Guard");
+            enemyTree.Nodes.Add("GUD07 Battle Guard");
             enemyTree.Nodes.Add("GUD08");
             enemyTree.Nodes.Add("GUD09");
             enemyTree.Nodes.Add("GUD10");
@@ -666,66 +666,66 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("GUD19");
             enemyTree.Nodes.Add("GUD20");
             enemyTree.Nodes.Add("GUD21");
-            enemyTree.Nodes.Add("CLO00");
-            enemyTree.Nodes.Add("CLO01");
-            enemyTree.Nodes.Add("CLO02");
-            enemyTree.Nodes.Add("CLO03");
-            enemyTree.Nodes.Add("CLO04");
-            enemyTree.Nodes.Add("CLO05");
-            enemyTree.Nodes.Add("CLO06");
-            enemyTree.Nodes.Add("CLO07");
-            enemyTree.Nodes.Add("CLO08");
-            enemyTree.Nodes.Add("CLO09");
-            enemyTree.Nodes.Add("CLO10");
-            enemyTree.Nodes.Add("CLO11");
-            enemyTree.Nodes.Add("CLO12");
-            enemyTree.Nodes.Add("CLO13");
-            enemyTree.Nodes.Add("CLO14");
-            enemyTree.Nodes.Add("CLO15");
-            enemyTree.Nodes.Add("CLO16");
-            enemyTree.Nodes.Add("CLO17");
-            enemyTree.Nodes.Add("CLO18");
-            enemyTree.Nodes.Add("CLO19");
-            enemyTree.Nodes.Add("COA00");
-            enemyTree.Nodes.Add("COA01");
-            enemyTree.Nodes.Add("COA02");
-            enemyTree.Nodes.Add("COA03");
-            enemyTree.Nodes.Add("COA04");
-            enemyTree.Nodes.Add("COA05");
-            enemyTree.Nodes.Add("COA06");
-            enemyTree.Nodes.Add("COA07");
-            enemyTree.Nodes.Add("COA08");
-            enemyTree.Nodes.Add("COA09");
-            enemyTree.Nodes.Add("COA10");
-            enemyTree.Nodes.Add("COA11");
-            enemyTree.Nodes.Add("COA12");
-            enemyTree.Nodes.Add("COA13");
-            enemyTree.Nodes.Add("COA14");
-            enemyTree.Nodes.Add("COA15");
-            enemyTree.Nodes.Add("COA16");
-            enemyTree.Nodes.Add("COA17");
-            enemyTree.Nodes.Add("COA18");
+            enemyTree.Nodes.Add("CLO00 Cloak");
+            enemyTree.Nodes.Add("CLO01 Amber Cloak");
+            enemyTree.Nodes.Add("CLO02 Silk Cloak");
+            enemyTree.Nodes.Add("CLO03 Feather Cloak");
+            enemyTree.Nodes.Add("CLO04 Cocktail Dress");
+            enemyTree.Nodes.Add("CLO05 Magic Tunic");
+            enemyTree.Nodes.Add("CLO06 Silver Cloak");
+            enemyTree.Nodes.Add("CLO07 Witch Dress");
+            enemyTree.Nodes.Add("CLO08 Holy Cloak");
+            enemyTree.Nodes.Add("CLO09 Mythril Cloak");
+            enemyTree.Nodes.Add("CLO10 Midi Blouse");
+            enemyTree.Nodes.Add("CLO11 Mermaid Cloak");
+            enemyTree.Nodes.Add("CLO12 Platinum Cloak");
+            enemyTree.Nodes.Add("CLO13 Gothic Dress");
+            enemyTree.Nodes.Add("CLO14 Mirage Cloak");
+            enemyTree.Nodes.Add("CLO15 Elder Cloak");
+            enemyTree.Nodes.Add("CLO16 Moon Cloak");
+            enemyTree.Nodes.Add("CLO17 Elemtnal Cloak");
+            enemyTree.Nodes.Add("CLO18 Rune Cloak");
+            enemyTree.Nodes.Add("CLO19 Empress Dress");
+            enemyTree.Nodes.Add("COA00 Trench Coat");
+            enemyTree.Nodes.Add("COA01 Leather Coat");
+            enemyTree.Nodes.Add("COA02 Feather Coat");
+            enemyTree.Nodes.Add("COA03 Hard Leather Coat");
+            enemyTree.Nodes.Add("COA04 Long Coat");
+            enemyTree.Nodes.Add("COA05 Mythril Coat");
+            enemyTree.Nodes.Add("COA06 Elven Coat");
+            enemyTree.Nodes.Add("COA07 Splash Dress");
+            enemyTree.Nodes.Add("COA08 Rare Coat");
+            enemyTree.Nodes.Add("COA09 Silver Coat");
+            enemyTree.Nodes.Add("COA10 Bloody Coat");
+            enemyTree.Nodes.Add("COA11 Gothic Cardigan");
+            enemyTree.Nodes.Add("COA12 Kritya Coat");
+            enemyTree.Nodes.Add("COA13 Holy Coat");
+            enemyTree.Nodes.Add("COA14 Hero Coat");
+            enemyTree.Nodes.Add("COA15 Queen's Coat");
+            enemyTree.Nodes.Add("COA16 Rune Coat");
+            enemyTree.Nodes.Add("COA17 Dragon Coat");
+            enemyTree.Nodes.Add("COA18 Marine Suit");
             enemyTree.Nodes.Add("COA19");
-            enemyTree.Nodes.Add("COD00");
-            enemyTree.Nodes.Add("COD01");
-            enemyTree.Nodes.Add("COD02");
-            enemyTree.Nodes.Add("COD03");
-            enemyTree.Nodes.Add("COD04");
-            enemyTree.Nodes.Add("COD05");
-            enemyTree.Nodes.Add("COD06");
-            enemyTree.Nodes.Add("COD07");
-            enemyTree.Nodes.Add("COD08");
-            enemyTree.Nodes.Add("COD09");
-            enemyTree.Nodes.Add("COD10");
-            enemyTree.Nodes.Add("COD11");
-            enemyTree.Nodes.Add("COD12");
-            enemyTree.Nodes.Add("COD13");
-            enemyTree.Nodes.Add("COD14");
-            enemyTree.Nodes.Add("HEL00");
-            enemyTree.Nodes.Add("HEL01");
-            enemyTree.Nodes.Add("HEL02");
-            enemyTree.Nodes.Add("HEL03");
-            enemyTree.Nodes.Add("HEL04");
+            enemyTree.Nodes.Add("COD00 Belly Warmer");
+            enemyTree.Nodes.Add("COD01 Leather Jacket");
+            enemyTree.Nodes.Add("COD02 Iron Protector");
+            enemyTree.Nodes.Add("COD03 Thief's Jacket");
+            enemyTree.Nodes.Add("COD04 Rain Cape");
+            enemyTree.Nodes.Add("COD05 Steel Protector");
+            enemyTree.Nodes.Add("COD06 Metal Jacket");
+            enemyTree.Nodes.Add("COD07 Magical Collar");
+            enemyTree.Nodes.Add("COD08 Spiny Jacket");
+            enemyTree.Nodes.Add("COD09 Silver Protector");
+            enemyTree.Nodes.Add("COD10 Fancy Belly Warmer");
+            enemyTree.Nodes.Add("COD11 Mythril Protector");
+            enemyTree.Nodes.Add("COD12 Dragon Protector");
+            enemyTree.Nodes.Add("COD13 Loyal Belly Warmer");
+            enemyTree.Nodes.Add("COD14 Aer Fragment");
+            enemyTree.Nodes.Add("HEL00 Leather Helm");
+            enemyTree.Nodes.Add("HEL01 Iron Sallet");
+            enemyTree.Nodes.Add("HEL02 Armet Helm");
+            enemyTree.Nodes.Add("HEL03 Knight Helm");
+            enemyTree.Nodes.Add("HEL04 Silver Helm");
             enemyTree.Nodes.Add("HEL05");
             enemyTree.Nodes.Add("HEL06");
             enemyTree.Nodes.Add("HEL07");
@@ -2314,9 +2314,9 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxMDef.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 124).ToString("D");
             Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 124, 4);
 
-            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 120, 4);
-            richTextBoxAgi.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 120).ToString("D");
-            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 120, 4);
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 136, 4);
+            richTextBoxAgi.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 136).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 136, 4);
 
 
             //One of these is probably the luck stat
@@ -2422,6 +2422,56 @@ namespace Etrian_Odyssey_IV_test
             Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 576, 4);
             richTextBoxUnknown13.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 576).ToString("D");
             Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 576, 4);
+
+
+            //Shop stuff
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 44, 4);
+            richTextBoxBuy.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 44).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 44, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 520, 4);
+            richTextBoxSynth.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 520).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 520, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 528, 4);
+            richTextBoxMat1.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 528).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 528, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 532, 4);
+            richTextBoxMat1Count.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 532).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 532, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 536, 4);
+            richTextBoxMat2.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 536).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 536, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 540, 4);
+            richTextBoxMat2Count.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 540).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 540, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 544, 4);
+            richTextBoxMat3.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 544).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 544, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 548, 4);
+            richTextBoxMat3Count.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 548).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 548, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 552, 4);
+            richTextBoxMat4.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 552).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 552, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 556, 4);
+            richTextBoxMat4Count.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 556).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 556, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 560, 4);
+            richTextBoxMat5.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 560).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 560, 4);
+
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 564, 4);
+            richTextBoxMat5Count.Text = BitConverter.ToUInt32(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 564).ToString("D");
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 564, 4);
         }
 
         private void button1_Click(object sender, EventArgs e) //Save button
@@ -2516,7 +2566,93 @@ namespace Etrian_Odyssey_IV_test
             Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 576, 4);
             
 
+
+            //Shop stuff
+            UInt32.TryParse(richTextBoxBuy.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 44); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 44, 4);
+
+            UInt32.TryParse(richTextBoxSynth.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 520); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 520, 4);
+
+            UInt32.TryParse(richTextBoxMat1.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 528); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 528, 4);
+
+            UInt32.TryParse(richTextBoxMat1Count.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 532); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 532, 4);
+
+            UInt32.TryParse(richTextBoxMat2.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 536); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 536, 4);
+
+            UInt32.TryParse(richTextBoxMat2Count.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 540); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 540, 4);
+
+            UInt32.TryParse(richTextBoxMat3.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 544); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 544, 4);
+
+            UInt32.TryParse(richTextBoxMat3Count.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 548); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 548, 4);
+
+            UInt32.TryParse(richTextBoxMat4.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 552); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 552, 4);
+
+            UInt32.TryParse(richTextBoxMat4Count.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 556); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 556, 4);
+
+            UInt32.TryParse(richTextBoxMat5.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 560); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 560, 4);
+
+            UInt32.TryParse(richTextBoxMat5Count.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 564); }
+            Array.Reverse(enemydata_array, 2752 + (enemyTree.SelectedNode.Index * 740) + 564, 4);
+
             File.WriteAllBytes(Properties.Settings.Default.VesperiaData64 + "\\Data64\\item.svo", enemydata_array); //saves to the path i set, everything in the array/   
+        }
+
+        private void button4_Click(object sender, EventArgs e) //arte editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaArteEditor f2 = new FormVesperiaArteEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e) //Skill Editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaSkillEditor f2 = new FormVesperiaSkillEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e) //Enemy Editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaEnemyEditor f2 = new FormVesperiaEnemyEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
         }
     }
 }

@@ -466,5 +466,53 @@ namespace Etrian_Odyssey_IV_test
 
             File.WriteAllBytes(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo", enemydata_array); //saves to the path i set, everything in the array/
         }
+
+        private void button4_Click(object sender, EventArgs e) //Arte Editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaArteEditor f2 = new FormVesperiaArteEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e) //Items and equipment editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\item.svo"))
+            {
+                FormVesperiaItem f2 = new FormVesperiaItem(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e) //Enemy Editor
+        {
+            if (File.Exists(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo"))
+            {
+                FormVesperiaEnemyEditor f2 = new FormVesperiaEnemyEditor(); //Create the new form
+                f2.StartPosition = FormStartPosition.Manual;  //Grab current windows location
+                f2.Location = this.Location; //Create the new window at the same location as current one
+                f2.Show(); //Show the new window
+                this.Close(); //Close the current window
+            }
+            else
+            {
+                System.Windows.Forms.MessageBox.Show("The mod directory is not set");
+            }
+        }
     }
 }

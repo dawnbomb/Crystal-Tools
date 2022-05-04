@@ -96,7 +96,7 @@ namespace Etrian_Odyssey_IV_test
             this.richTextBoxUnknown31 = new System.Windows.Forms.RichTextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.richTextBoxUnknown3 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxDArms = new System.Windows.Forms.RichTextBox();
             this.label21 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.richTextBoxFamily = new System.Windows.Forms.RichTextBox();
@@ -135,22 +135,83 @@ namespace Etrian_Odyssey_IV_test
             this.richTextBoxMDef = new System.Windows.Forms.RichTextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label55 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label56 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.label57 = new System.Windows.Forms.Label();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.richTextBoxEMaxHP = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxEMDef = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxEPAtk = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxEPDef = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxEMAtk = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxHMaxHP = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxHPAtk = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxHMAtk = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUMaxHP = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUMDef = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUPAtk = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUPDef = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUMAtk = new System.Windows.Forms.RichTextBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.label51 = new System.Windows.Forms.Label();
             this.label54 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.label55 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown32 = new System.Windows.Forms.RichTextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown33 = new System.Windows.Forms.RichTextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown34 = new System.Windows.Forms.RichTextBox();
+            this.label62 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown35 = new System.Windows.Forms.RichTextBox();
+            this.label63 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown36 = new System.Windows.Forms.RichTextBox();
+            this.label64 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown37 = new System.Windows.Forms.RichTextBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown40 = new System.Windows.Forms.RichTextBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown39 = new System.Windows.Forms.RichTextBox();
+            this.label67 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown38 = new System.Windows.Forms.RichTextBox();
+            this.label68 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown43 = new System.Windows.Forms.RichTextBox();
+            this.label69 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown42 = new System.Windows.Forms.RichTextBox();
+            this.label70 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown41 = new System.Windows.Forms.RichTextBox();
+            this.label71 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown52 = new System.Windows.Forms.RichTextBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown51 = new System.Windows.Forms.RichTextBox();
+            this.label73 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown50 = new System.Windows.Forms.RichTextBox();
+            this.label74 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown49 = new System.Windows.Forms.RichTextBox();
+            this.label75 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown48 = new System.Windows.Forms.RichTextBox();
+            this.label76 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown47 = new System.Windows.Forms.RichTextBox();
+            this.label77 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown46 = new System.Windows.Forms.RichTextBox();
+            this.label78 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown45 = new System.Windows.Forms.RichTextBox();
+            this.label79 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown44 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUnknown55 = new System.Windows.Forms.RichTextBox();
+            this.richTextBoxUnknown54 = new System.Windows.Forms.RichTextBox();
+            this.label82 = new System.Windows.Forms.Label();
+            this.richTextBoxUnknown53 = new System.Windows.Forms.RichTextBox();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // enemyTree
@@ -164,12 +225,14 @@ namespace Etrian_Odyssey_IV_test
             this.enemyTree.Name = "enemyTree";
             this.enemyTree.ShowLines = false;
             this.enemyTree.ShowRootLines = false;
-            this.enemyTree.Size = new System.Drawing.Size(219, 737);
+            this.enemyTree.Size = new System.Drawing.Size(316, 745);
             this.enemyTree.TabIndex = 22;
             this.enemyTree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.enemyTree_AfterSelect);
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.label55);
+            this.groupBox3.Controls.Add(this.richTextBoxUnknown32);
             this.groupBox3.Controls.Add(this.label53);
             this.groupBox3.Controls.Add(this.label52);
             this.groupBox3.Controls.Add(this.label49);
@@ -233,9 +296,9 @@ namespace Etrian_Odyssey_IV_test
             this.groupBox3.Controls.Add(this.label7);
             this.groupBox3.Controls.Add(this.richTextBoxUnknown31);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.groupBox3.Location = new System.Drawing.Point(548, 347);
+            this.groupBox3.Location = new System.Drawing.Point(648, 366);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(828, 384);
+            this.groupBox3.Size = new System.Drawing.Size(845, 382);
             this.groupBox3.TabIndex = 70;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Uncomfirmed what orange values are, you can try to figure it out yourself. Make a" +
@@ -245,7 +308,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label53.AutoSize = true;
             this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(5, 244);
+            this.label53.Location = new System.Drawing.Point(5, 216);
             this.label53.Name = "label53";
             this.label53.Size = new System.Drawing.Size(217, 16);
             this.label53.TabIndex = 143;
@@ -265,7 +328,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label49.AutoSize = true;
             this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label49.Location = new System.Drawing.Point(13, 206);
+            this.label49.Location = new System.Drawing.Point(13, 178);
             this.label49.Name = "label49";
             this.label49.Size = new System.Drawing.Size(65, 24);
             this.label49.TabIndex = 120;
@@ -275,7 +338,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown30.Location = new System.Drawing.Point(79, 203);
+            this.richTextBoxUnknown30.Location = new System.Drawing.Point(79, 175);
             this.richTextBoxUnknown30.Name = "richTextBoxUnknown30";
             this.richTextBoxUnknown30.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown30.TabIndex = 121;
@@ -347,15 +410,15 @@ namespace Etrian_Odyssey_IV_test
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label45.Location = new System.Drawing.Point(631, 205);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(65, 24);
+            this.label45.Size = new System.Drawing.Size(81, 24);
             this.label45.TabIndex = 112;
-            this.label45.Text = "??? 26";
+            this.label45.Text = "Icon? 26";
             // 
             // richTextBoxUnknown26
             // 
             this.richTextBoxUnknown26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown26.Location = new System.Drawing.Point(697, 202);
+            this.richTextBoxUnknown26.Location = new System.Drawing.Point(717, 200);
             this.richTextBoxUnknown26.Name = "richTextBoxUnknown26";
             this.richTextBoxUnknown26.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown26.TabIndex = 113;
@@ -585,7 +648,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label34.Location = new System.Drawing.Point(244, 342);
+            this.label34.Location = new System.Drawing.Point(242, 329);
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(65, 24);
             this.label34.TabIndex = 88;
@@ -595,7 +658,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown13.Location = new System.Drawing.Point(310, 339);
+            this.richTextBoxUnknown13.Location = new System.Drawing.Point(308, 326);
             this.richTextBoxUnknown13.Name = "richTextBoxUnknown13";
             this.richTextBoxUnknown13.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown13.TabIndex = 89;
@@ -605,7 +668,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label33.AutoSize = true;
             this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label33.Location = new System.Drawing.Point(244, 298);
+            this.label33.Location = new System.Drawing.Point(242, 285);
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(65, 24);
             this.label33.TabIndex = 86;
@@ -615,7 +678,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown12.Location = new System.Drawing.Point(310, 295);
+            this.richTextBoxUnknown12.Location = new System.Drawing.Point(308, 282);
             this.richTextBoxUnknown12.Name = "richTextBoxUnknown12";
             this.richTextBoxUnknown12.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown12.TabIndex = 87;
@@ -625,7 +688,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label32.AutoSize = true;
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label32.Location = new System.Drawing.Point(244, 255);
+            this.label32.Location = new System.Drawing.Point(242, 242);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(65, 24);
             this.label32.TabIndex = 84;
@@ -635,7 +698,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown11.Location = new System.Drawing.Point(310, 252);
+            this.richTextBoxUnknown11.Location = new System.Drawing.Point(308, 239);
             this.richTextBoxUnknown11.Name = "richTextBoxUnknown11";
             this.richTextBoxUnknown11.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown11.TabIndex = 85;
@@ -645,7 +708,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label31.AutoSize = true;
             this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label31.Location = new System.Drawing.Point(244, 215);
+            this.label31.Location = new System.Drawing.Point(242, 202);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(65, 24);
             this.label31.TabIndex = 82;
@@ -655,7 +718,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown10.Location = new System.Drawing.Point(310, 212);
+            this.richTextBoxUnknown10.Location = new System.Drawing.Point(308, 199);
             this.richTextBoxUnknown10.Name = "richTextBoxUnknown10";
             this.richTextBoxUnknown10.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown10.TabIndex = 83;
@@ -665,7 +728,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label30.Location = new System.Drawing.Point(244, 172);
+            this.label30.Location = new System.Drawing.Point(242, 159);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(55, 24);
             this.label30.TabIndex = 80;
@@ -675,7 +738,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown9.Location = new System.Drawing.Point(310, 169);
+            this.richTextBoxUnknown9.Location = new System.Drawing.Point(308, 156);
             this.richTextBoxUnknown9.Name = "richTextBoxUnknown9";
             this.richTextBoxUnknown9.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown9.TabIndex = 81;
@@ -685,7 +748,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label29.Location = new System.Drawing.Point(244, 125);
+            this.label29.Location = new System.Drawing.Point(242, 116);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(55, 24);
             this.label29.TabIndex = 78;
@@ -695,7 +758,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown8.Location = new System.Drawing.Point(310, 122);
+            this.richTextBoxUnknown8.Location = new System.Drawing.Point(308, 113);
             this.richTextBoxUnknown8.Name = "richTextBoxUnknown8";
             this.richTextBoxUnknown8.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown8.TabIndex = 79;
@@ -745,7 +808,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label26.AutoSize = true;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label26.Location = new System.Drawing.Point(12, 339);
+            this.label26.Location = new System.Drawing.Point(13, 285);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(55, 24);
             this.label26.TabIndex = 72;
@@ -755,7 +818,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown5.Location = new System.Drawing.Point(78, 336);
+            this.richTextBoxUnknown5.Location = new System.Drawing.Point(79, 282);
             this.richTextBoxUnknown5.Name = "richTextBoxUnknown5";
             this.richTextBoxUnknown5.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown5.TabIndex = 73;
@@ -765,7 +828,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label25.AutoSize = true;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label25.Location = new System.Drawing.Point(12, 296);
+            this.label25.Location = new System.Drawing.Point(13, 242);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(55, 24);
             this.label25.TabIndex = 70;
@@ -775,7 +838,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown4.Location = new System.Drawing.Point(78, 293);
+            this.richTextBoxUnknown4.Location = new System.Drawing.Point(79, 239);
             this.richTextBoxUnknown4.Name = "richTextBoxUnknown4";
             this.richTextBoxUnknown4.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown4.TabIndex = 71;
@@ -805,7 +868,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label20.Location = new System.Drawing.Point(13, 163);
+            this.label20.Location = new System.Drawing.Point(13, 135);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(55, 24);
             this.label20.TabIndex = 62;
@@ -815,7 +878,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxUnknown2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.richTextBoxUnknown2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown2.Location = new System.Drawing.Point(79, 160);
+            this.richTextBoxUnknown2.Location = new System.Drawing.Point(79, 132);
             this.richTextBoxUnknown2.Name = "richTextBoxUnknown2";
             this.richTextBoxUnknown2.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxUnknown2.TabIndex = 63;
@@ -865,7 +928,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(442, 548);
+            this.label23.Location = new System.Drawing.Point(539, 545);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(92, 16);
             this.label23.TabIndex = 67;
@@ -875,7 +938,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(431, 406);
+            this.label22.Location = new System.Drawing.Point(528, 403);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(118, 112);
             this.label22.TabIndex = 66;
@@ -883,15 +946,15 @@ namespace Etrian_Odyssey_IV_test
     "Does not \r\nshow on ingame \r\nbestiary.";
             this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
-            // richTextBoxUnknown3
+            // richTextBoxDArms
             // 
-            this.richTextBoxUnknown3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.richTextBoxUnknown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxUnknown3.Location = new System.Drawing.Point(77, 393);
-            this.richTextBoxUnknown3.Name = "richTextBoxUnknown3";
-            this.richTextBoxUnknown3.Size = new System.Drawing.Size(123, 37);
-            this.richTextBoxUnknown3.TabIndex = 65;
-            this.richTextBoxUnknown3.Text = "";
+            this.richTextBoxDArms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.richTextBoxDArms.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxDArms.Location = new System.Drawing.Point(77, 393);
+            this.richTextBoxDArms.Name = "richTextBoxDArms";
+            this.richTextBoxDArms.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxDArms.TabIndex = 65;
+            this.richTextBoxDArms.Text = "";
             // 
             // label21
             // 
@@ -927,7 +990,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label17.Location = new System.Drawing.Point(6, 59);
+            this.label17.Location = new System.Drawing.Point(269, 98);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(75, 24);
             this.label17.TabIndex = 56;
@@ -937,7 +1000,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxMaxTP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxMaxTP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxMaxTP.Location = new System.Drawing.Point(84, 56);
+            this.richTextBoxMaxTP.Location = new System.Drawing.Point(142, 95);
             this.richTextBoxMaxTP.Name = "richTextBoxMaxTP";
             this.richTextBoxMaxTP.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxMaxTP.TabIndex = 57;
@@ -977,7 +1040,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(6, 16);
+            this.label2.Location = new System.Drawing.Point(269, 55);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 24);
             this.label2.TabIndex = 24;
@@ -1007,7 +1070,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxMaxHP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxMaxHP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxMaxHP.Location = new System.Drawing.Point(84, 13);
+            this.richTextBoxMaxHP.Location = new System.Drawing.Point(142, 52);
             this.richTextBoxMaxHP.Name = "richTextBoxMaxHP";
             this.richTextBoxMaxHP.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxMaxHP.TabIndex = 25;
@@ -1027,7 +1090,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(18, 108);
+            this.label3.Location = new System.Drawing.Point(281, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(48, 24);
             this.label3.TabIndex = 26;
@@ -1047,7 +1110,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxPAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxPAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxPAtk.Location = new System.Drawing.Point(84, 105);
+            this.richTextBoxPAtk.Location = new System.Drawing.Point(142, 138);
             this.richTextBoxPAtk.Name = "richTextBoxPAtk";
             this.richTextBoxPAtk.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxPAtk.TabIndex = 27;
@@ -1067,7 +1130,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.labelMag.AutoSize = true;
             this.labelMag.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelMag.Location = new System.Drawing.Point(18, 194);
+            this.labelMag.Location = new System.Drawing.Point(281, 227);
             this.labelMag.Name = "labelMag";
             this.labelMag.Size = new System.Drawing.Size(52, 24);
             this.labelMag.TabIndex = 28;
@@ -1087,7 +1150,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxMAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxMAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxMAtk.Location = new System.Drawing.Point(84, 191);
+            this.richTextBoxMAtk.Location = new System.Drawing.Point(142, 224);
             this.richTextBoxMAtk.Name = "richTextBoxMAtk";
             this.richTextBoxMAtk.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxMAtk.TabIndex = 29;
@@ -1107,7 +1170,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(18, 151);
+            this.label5.Location = new System.Drawing.Point(281, 184);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(50, 24);
             this.label5.TabIndex = 30;
@@ -1127,7 +1190,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxPDef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxPDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxPDef.Location = new System.Drawing.Point(84, 148);
+            this.richTextBoxPDef.Location = new System.Drawing.Point(142, 181);
             this.richTextBoxPDef.Name = "richTextBoxPDef";
             this.richTextBoxPDef.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxPDef.TabIndex = 31;
@@ -1147,7 +1210,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.Location = new System.Drawing.Point(18, 280);
+            this.label6.Location = new System.Drawing.Point(281, 313);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(38, 24);
             this.label6.TabIndex = 32;
@@ -1167,7 +1230,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxAgi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxAgi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxAgi.Location = new System.Drawing.Point(84, 277);
+            this.richTextBoxAgi.Location = new System.Drawing.Point(142, 310);
             this.richTextBoxAgi.Name = "richTextBoxAgi";
             this.richTextBoxAgi.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxAgi.TabIndex = 33;
@@ -1227,7 +1290,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.Location = new System.Drawing.Point(18, 237);
+            this.label8.Location = new System.Drawing.Point(281, 270);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(54, 24);
             this.label8.TabIndex = 38;
@@ -1247,7 +1310,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.richTextBoxMDef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.richTextBoxMDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.richTextBoxMDef.Location = new System.Drawing.Point(84, 234);
+            this.richTextBoxMDef.Location = new System.Drawing.Point(142, 267);
             this.richTextBoxMDef.Name = "richTextBoxMDef";
             this.richTextBoxMDef.Size = new System.Drawing.Size(123, 37);
             this.richTextBoxMDef.TabIndex = 39;
@@ -1265,7 +1328,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(229, 639);
+            this.button1.Location = new System.Drawing.Point(326, 636);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(316, 92);
             this.button1.TabIndex = 138;
@@ -1273,34 +1336,31 @@ namespace Etrian_Odyssey_IV_test
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label55);
-            this.groupBox1.Location = new System.Drawing.Point(437, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(228, 329);
-            this.groupBox1.TabIndex = 139;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Easy";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label55.Location = new System.Drawing.Point(31, 24);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(132, 48);
-            this.label55.TabIndex = 143;
-            this.label55.Text = "Enemy stats x0.7\r\nSome bosses won\'t\r\nuse their mystic artes\r\n";
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label61);
+            this.groupBox2.Controls.Add(this.label60);
+            this.groupBox2.Controls.Add(this.label59);
+            this.groupBox2.Controls.Add(this.label58);
+            this.groupBox2.Controls.Add(this.richTextBoxEMaxHP);
+            this.groupBox2.Controls.Add(this.richTextBoxEMDef);
+            this.groupBox2.Controls.Add(this.richTextBoxEPAtk);
+            this.groupBox2.Controls.Add(this.richTextBoxEPDef);
+            this.groupBox2.Controls.Add(this.richTextBoxEMAtk);
+            this.groupBox2.Controls.Add(this.richTextBoxHMaxHP);
+            this.groupBox2.Controls.Add(this.richTextBoxHPAtk);
+            this.groupBox2.Controls.Add(this.richTextBoxHMAtk);
+            this.groupBox2.Controls.Add(this.richTextBoxUMaxHP);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.richTextBoxMDef);
+            this.groupBox2.Controls.Add(this.richTextBoxUMDef);
+            this.groupBox2.Controls.Add(this.richTextBoxUPAtk);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.richTextBoxAgi);
+            this.groupBox2.Controls.Add(this.richTextBoxUPDef);
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.richTextBoxPDef);
+            this.groupBox2.Controls.Add(this.richTextBoxUMAtk);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.richTextBoxMAtk);
             this.groupBox2.Controls.Add(this.labelMag);
@@ -1309,52 +1369,182 @@ namespace Etrian_Odyssey_IV_test
             this.groupBox2.Controls.Add(this.richTextBoxMaxHP);
             this.groupBox2.Controls.Add(this.richTextBoxMaxTP);
             this.groupBox2.Controls.Add(this.label17);
-            this.groupBox2.Location = new System.Drawing.Point(671, 12);
+            this.groupBox2.Location = new System.Drawing.Point(538, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(228, 329);
+            this.groupBox2.Size = new System.Drawing.Size(612, 351);
             this.groupBox2.TabIndex = 140;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Normal";
+            this.groupBox2.Text = "Stats on each difficulty mode";
             // 
-            // groupBox4
+            // label61
             // 
-            this.groupBox4.Controls.Add(this.label56);
-            this.groupBox4.Location = new System.Drawing.Point(905, 12);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(228, 329);
-            this.groupBox4.TabIndex = 140;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Hard";
+            this.label61.AutoSize = true;
+            this.label61.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label61.Location = new System.Drawing.Point(498, 24);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(78, 18);
+            this.label61.TabIndex = 161;
+            this.label61.Text = "Unknown";
             // 
-            // label56
+            // label60
             // 
-            this.label56.AutoSize = true;
-            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label56.Location = new System.Drawing.Point(35, 24);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(68, 48);
-            this.label56.TabIndex = 144;
-            this.label56.Text = "HP x2.5\r\nP.Atk x1.2 \r\nM.Atk x1.2\r\n";
+            this.label60.AutoSize = true;
+            this.label60.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label60.Location = new System.Drawing.Point(380, 24);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(44, 18);
+            this.label60.TabIndex = 160;
+            this.label60.Text = "Hard";
             // 
-            // groupBox5
+            // label59
             // 
-            this.groupBox5.Controls.Add(this.label57);
-            this.groupBox5.Location = new System.Drawing.Point(1148, 12);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(228, 329);
-            this.groupBox5.TabIndex = 140;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Unknown";
+            this.label59.AutoSize = true;
+            this.label59.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label59.Location = new System.Drawing.Point(171, 24);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(63, 18);
+            this.label59.TabIndex = 159;
+            this.label59.Text = "Normal";
             // 
-            // label57
+            // label58
             // 
-            this.label57.AutoSize = true;
-            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label57.Location = new System.Drawing.Point(32, 45);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(70, 80);
-            this.label57.TabIndex = 145;
-            this.label57.Text = "HP x5\r\nP.Atk x3.5\r\nP.Def x2.5 \r\nM.Atk x3\r\nM.Def x2.5\r\n";
+            this.label58.AutoSize = true;
+            this.label58.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label58.Location = new System.Drawing.Point(48, 24);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(45, 18);
+            this.label58.TabIndex = 146;
+            this.label58.Text = "Easy";
+            // 
+            // richTextBoxEMaxHP
+            // 
+            this.richTextBoxEMaxHP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(193)))), ((int)(((byte)(200)))));
+            this.richTextBoxEMaxHP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxEMaxHP.Location = new System.Drawing.Point(13, 52);
+            this.richTextBoxEMaxHP.Name = "richTextBoxEMaxHP";
+            this.richTextBoxEMaxHP.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxEMaxHP.TabIndex = 158;
+            this.richTextBoxEMaxHP.Text = "";
+            // 
+            // richTextBoxEMDef
+            // 
+            this.richTextBoxEMDef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(193)))), ((int)(((byte)(186)))));
+            this.richTextBoxEMDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxEMDef.Location = new System.Drawing.Point(13, 265);
+            this.richTextBoxEMDef.Name = "richTextBoxEMDef";
+            this.richTextBoxEMDef.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxEMDef.TabIndex = 157;
+            this.richTextBoxEMDef.Text = "";
+            // 
+            // richTextBoxEPAtk
+            // 
+            this.richTextBoxEPAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(185)))), ((int)(((byte)(182)))));
+            this.richTextBoxEPAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxEPAtk.Location = new System.Drawing.Point(13, 139);
+            this.richTextBoxEPAtk.Name = "richTextBoxEPAtk";
+            this.richTextBoxEPAtk.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxEPAtk.TabIndex = 155;
+            this.richTextBoxEPAtk.Text = "";
+            // 
+            // richTextBoxEPDef
+            // 
+            this.richTextBoxEPDef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(225)))), ((int)(((byte)(207)))));
+            this.richTextBoxEPDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxEPDef.Location = new System.Drawing.Point(13, 182);
+            this.richTextBoxEPDef.Name = "richTextBoxEPDef";
+            this.richTextBoxEPDef.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxEPDef.TabIndex = 154;
+            this.richTextBoxEPDef.Text = "";
+            // 
+            // richTextBoxEMAtk
+            // 
+            this.richTextBoxEMAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(197)))), ((int)(((byte)(209)))));
+            this.richTextBoxEMAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxEMAtk.Location = new System.Drawing.Point(13, 225);
+            this.richTextBoxEMAtk.Name = "richTextBoxEMAtk";
+            this.richTextBoxEMAtk.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxEMAtk.TabIndex = 156;
+            this.richTextBoxEMAtk.Text = "";
+            // 
+            // richTextBoxHMaxHP
+            // 
+            this.richTextBoxHMaxHP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(193)))), ((int)(((byte)(200)))));
+            this.richTextBoxHMaxHP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxHMaxHP.Location = new System.Drawing.Point(352, 51);
+            this.richTextBoxHMaxHP.Name = "richTextBoxHMaxHP";
+            this.richTextBoxHMaxHP.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxHMaxHP.TabIndex = 153;
+            this.richTextBoxHMaxHP.Text = "";
+            // 
+            // richTextBoxHPAtk
+            // 
+            this.richTextBoxHPAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(185)))), ((int)(((byte)(182)))));
+            this.richTextBoxHPAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxHPAtk.Location = new System.Drawing.Point(352, 138);
+            this.richTextBoxHPAtk.Name = "richTextBoxHPAtk";
+            this.richTextBoxHPAtk.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxHPAtk.TabIndex = 150;
+            this.richTextBoxHPAtk.Text = "";
+            // 
+            // richTextBoxHMAtk
+            // 
+            this.richTextBoxHMAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(197)))), ((int)(((byte)(209)))));
+            this.richTextBoxHMAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxHMAtk.Location = new System.Drawing.Point(352, 224);
+            this.richTextBoxHMAtk.Name = "richTextBoxHMAtk";
+            this.richTextBoxHMAtk.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxHMAtk.TabIndex = 151;
+            this.richTextBoxHMAtk.Text = "";
+            // 
+            // richTextBoxUMaxHP
+            // 
+            this.richTextBoxUMaxHP.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(193)))), ((int)(((byte)(200)))));
+            this.richTextBoxUMaxHP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUMaxHP.Location = new System.Drawing.Point(481, 52);
+            this.richTextBoxUMaxHP.Name = "richTextBoxUMaxHP";
+            this.richTextBoxUMaxHP.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUMaxHP.TabIndex = 148;
+            this.richTextBoxUMaxHP.Text = "";
+            // 
+            // richTextBoxUMDef
+            // 
+            this.richTextBoxUMDef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(193)))), ((int)(((byte)(186)))));
+            this.richTextBoxUMDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUMDef.Location = new System.Drawing.Point(481, 265);
+            this.richTextBoxUMDef.Name = "richTextBoxUMDef";
+            this.richTextBoxUMDef.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUMDef.TabIndex = 147;
+            this.richTextBoxUMDef.Text = "";
+            // 
+            // richTextBoxUPAtk
+            // 
+            this.richTextBoxUPAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(185)))), ((int)(((byte)(182)))));
+            this.richTextBoxUPAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUPAtk.Location = new System.Drawing.Point(481, 139);
+            this.richTextBoxUPAtk.Name = "richTextBoxUPAtk";
+            this.richTextBoxUPAtk.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUPAtk.TabIndex = 146;
+            this.richTextBoxUPAtk.Text = "";
+            // 
+            // richTextBoxUPDef
+            // 
+            this.richTextBoxUPDef.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(225)))), ((int)(((byte)(207)))));
+            this.richTextBoxUPDef.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUPDef.Location = new System.Drawing.Point(481, 182);
+            this.richTextBoxUPDef.Name = "richTextBoxUPDef";
+            this.richTextBoxUPDef.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUPDef.TabIndex = 58;
+            this.richTextBoxUPDef.Text = "";
+            // 
+            // richTextBoxUMAtk
+            // 
+            this.richTextBoxUMAtk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(199)))), ((int)(((byte)(197)))), ((int)(((byte)(209)))));
+            this.richTextBoxUMAtk.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUMAtk.Location = new System.Drawing.Point(481, 225);
+            this.richTextBoxUMAtk.Name = "richTextBoxUMAtk";
+            this.richTextBoxUMAtk.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUMAtk.TabIndex = 146;
+            this.richTextBoxUMAtk.Text = "";
             // 
             // groupBox6
             // 
@@ -1362,7 +1552,7 @@ namespace Etrian_Odyssey_IV_test
             this.groupBox6.Controls.Add(this.label1);
             this.groupBox6.Controls.Add(this.richTextBoxFamily);
             this.groupBox6.Controls.Add(this.label19);
-            this.groupBox6.Controls.Add(this.richTextBoxUnknown3);
+            this.groupBox6.Controls.Add(this.richTextBoxDArms);
             this.groupBox6.Controls.Add(this.label11);
             this.groupBox6.Controls.Add(this.richTextBoxFire);
             this.groupBox6.Controls.Add(this.label12);
@@ -1382,7 +1572,7 @@ namespace Etrian_Odyssey_IV_test
             this.groupBox6.Controls.Add(this.label10);
             this.groupBox6.Controls.Add(this.label4);
             this.groupBox6.Controls.Add(this.richTextBoxLP);
-            this.groupBox6.Location = new System.Drawing.Point(225, 7);
+            this.groupBox6.Location = new System.Drawing.Point(322, 4);
             this.groupBox6.Name = "groupBox6";
             this.groupBox6.Size = new System.Drawing.Size(206, 566);
             this.groupBox6.TabIndex = 141;
@@ -1393,7 +1583,7 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label51.AutoSize = true;
             this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(233, 578);
+            this.label51.Location = new System.Drawing.Point(330, 575);
             this.label51.Name = "label51";
             this.label51.Size = new System.Drawing.Size(277, 48);
             this.label51.TabIndex = 122;
@@ -1404,24 +1594,596 @@ namespace Etrian_Odyssey_IV_test
             // 
             this.label54.AutoSize = true;
             this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(1385, 28);
+            this.label54.Location = new System.Drawing.Point(1299, 162);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(241, 144);
+            this.label54.Size = new System.Drawing.Size(241, 176);
             this.label54.TabIndex = 142;
             this.label54.Text = resources.GetString("label54.Text");
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button6.Location = new System.Drawing.Point(1156, 153);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(137, 128);
+            this.button6.TabIndex = 146;
+            this.button6.Text = "Skill Editor";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button4.Location = new System.Drawing.Point(1156, 16);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(137, 128);
+            this.button4.TabIndex = 145;
+            this.button4.Text = "Arte Editor";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.button2.Location = new System.Drawing.Point(1299, 16);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(137, 128);
+            this.button2.TabIndex = 144;
+            this.button2.Text = "Items and Equipment Editor";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label55.Location = new System.Drawing.Point(-4, 334);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(119, 24);
+            this.label55.TabIndex = 144;
+            this.label55.Text = "??? Crash 32";
+            // 
+            // richTextBoxUnknown32
+            // 
+            this.richTextBoxUnknown32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown32.Location = new System.Drawing.Point(113, 326);
+            this.richTextBoxUnknown32.Name = "richTextBoxUnknown32";
+            this.richTextBoxUnknown32.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown32.TabIndex = 145;
+            this.richTextBoxUnknown32.Text = "";
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label56.Location = new System.Drawing.Point(1376, 292);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(65, 24);
+            this.label56.TabIndex = 147;
+            this.label56.Text = "??? 33";
+            // 
+            // richTextBoxUnknown33
+            // 
+            this.richTextBoxUnknown33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown33.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown33.Location = new System.Drawing.Point(1442, 289);
+            this.richTextBoxUnknown33.Name = "richTextBoxUnknown33";
+            this.richTextBoxUnknown33.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown33.TabIndex = 148;
+            this.richTextBoxUnknown33.Text = "";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label57.Location = new System.Drawing.Point(1378, 334);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(65, 24);
+            this.label57.TabIndex = 149;
+            this.label57.Text = "??? 34";
+            // 
+            // richTextBoxUnknown34
+            // 
+            this.richTextBoxUnknown34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown34.Location = new System.Drawing.Point(1444, 331);
+            this.richTextBoxUnknown34.Name = "richTextBoxUnknown34";
+            this.richTextBoxUnknown34.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown34.TabIndex = 150;
+            this.richTextBoxUnknown34.Text = "";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label62.Location = new System.Drawing.Point(8, 19);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(65, 24);
+            this.label62.TabIndex = 151;
+            this.label62.Text = "??? 35";
+            // 
+            // richTextBoxUnknown35
+            // 
+            this.richTextBoxUnknown35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown35.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown35.Location = new System.Drawing.Point(74, 16);
+            this.richTextBoxUnknown35.Name = "richTextBoxUnknown35";
+            this.richTextBoxUnknown35.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown35.TabIndex = 152;
+            this.richTextBoxUnknown35.Text = "";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label63.Location = new System.Drawing.Point(10, 59);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(65, 24);
+            this.label63.TabIndex = 153;
+            this.label63.Text = "??? 36";
+            // 
+            // richTextBoxUnknown36
+            // 
+            this.richTextBoxUnknown36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown36.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown36.Location = new System.Drawing.Point(76, 56);
+            this.richTextBoxUnknown36.Name = "richTextBoxUnknown36";
+            this.richTextBoxUnknown36.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown36.TabIndex = 154;
+            this.richTextBoxUnknown36.Text = "";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label64.Location = new System.Drawing.Point(10, 100);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(65, 24);
+            this.label64.TabIndex = 155;
+            this.label64.Text = "??? 37";
+            // 
+            // richTextBoxUnknown37
+            // 
+            this.richTextBoxUnknown37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown37.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown37.Location = new System.Drawing.Point(76, 97);
+            this.richTextBoxUnknown37.Name = "richTextBoxUnknown37";
+            this.richTextBoxUnknown37.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown37.TabIndex = 156;
+            this.richTextBoxUnknown37.Text = "";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label65.Location = new System.Drawing.Point(10, 217);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(65, 24);
+            this.label65.TabIndex = 161;
+            this.label65.Text = "??? 40";
+            // 
+            // richTextBoxUnknown40
+            // 
+            this.richTextBoxUnknown40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown40.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown40.Location = new System.Drawing.Point(76, 214);
+            this.richTextBoxUnknown40.Name = "richTextBoxUnknown40";
+            this.richTextBoxUnknown40.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown40.TabIndex = 162;
+            this.richTextBoxUnknown40.Text = "";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label66.Location = new System.Drawing.Point(10, 177);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(65, 24);
+            this.label66.TabIndex = 159;
+            this.label66.Text = "??? 39";
+            // 
+            // richTextBoxUnknown39
+            // 
+            this.richTextBoxUnknown39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown39.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown39.Location = new System.Drawing.Point(76, 174);
+            this.richTextBoxUnknown39.Name = "richTextBoxUnknown39";
+            this.richTextBoxUnknown39.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown39.TabIndex = 160;
+            this.richTextBoxUnknown39.Text = "";
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label67.Location = new System.Drawing.Point(10, 137);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(65, 24);
+            this.label67.TabIndex = 157;
+            this.label67.Text = "??? 38";
+            // 
+            // richTextBoxUnknown38
+            // 
+            this.richTextBoxUnknown38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown38.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown38.Location = new System.Drawing.Point(76, 134);
+            this.richTextBoxUnknown38.Name = "richTextBoxUnknown38";
+            this.richTextBoxUnknown38.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown38.TabIndex = 158;
+            this.richTextBoxUnknown38.Text = "";
+            // 
+            // label68
+            // 
+            this.label68.AutoSize = true;
+            this.label68.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label68.Location = new System.Drawing.Point(10, 335);
+            this.label68.Name = "label68";
+            this.label68.Size = new System.Drawing.Size(65, 24);
+            this.label68.TabIndex = 167;
+            this.label68.Text = "??? 43";
+            // 
+            // richTextBoxUnknown43
+            // 
+            this.richTextBoxUnknown43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown43.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown43.Location = new System.Drawing.Point(76, 332);
+            this.richTextBoxUnknown43.Name = "richTextBoxUnknown43";
+            this.richTextBoxUnknown43.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown43.TabIndex = 168;
+            this.richTextBoxUnknown43.Text = "";
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label69.Location = new System.Drawing.Point(10, 294);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(65, 24);
+            this.label69.TabIndex = 165;
+            this.label69.Text = "??? 42";
+            // 
+            // richTextBoxUnknown42
+            // 
+            this.richTextBoxUnknown42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown42.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown42.Location = new System.Drawing.Point(76, 291);
+            this.richTextBoxUnknown42.Name = "richTextBoxUnknown42";
+            this.richTextBoxUnknown42.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown42.TabIndex = 166;
+            this.richTextBoxUnknown42.Text = "";
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label70.Location = new System.Drawing.Point(10, 254);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(65, 24);
+            this.label70.TabIndex = 163;
+            this.label70.Text = "??? 41";
+            // 
+            // richTextBoxUnknown41
+            // 
+            this.richTextBoxUnknown41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown41.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown41.Location = new System.Drawing.Point(76, 251);
+            this.richTextBoxUnknown41.Name = "richTextBoxUnknown41";
+            this.richTextBoxUnknown41.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown41.TabIndex = 164;
+            this.richTextBoxUnknown41.Text = "";
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label71.Location = new System.Drawing.Point(1580, 98);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(65, 24);
+            this.label71.TabIndex = 185;
+            this.label71.Text = "??? 52";
+            // 
+            // richTextBoxUnknown52
+            // 
+            this.richTextBoxUnknown52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown52.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown52.Location = new System.Drawing.Point(1646, 95);
+            this.richTextBoxUnknown52.Name = "richTextBoxUnknown52";
+            this.richTextBoxUnknown52.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown52.TabIndex = 186;
+            this.richTextBoxUnknown52.Text = "";
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label72.Location = new System.Drawing.Point(1580, 57);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(65, 24);
+            this.label72.TabIndex = 183;
+            this.label72.Text = "??? 51";
+            // 
+            // richTextBoxUnknown51
+            // 
+            this.richTextBoxUnknown51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown51.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown51.Location = new System.Drawing.Point(1646, 54);
+            this.richTextBoxUnknown51.Name = "richTextBoxUnknown51";
+            this.richTextBoxUnknown51.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown51.TabIndex = 184;
+            this.richTextBoxUnknown51.Text = "";
+            // 
+            // label73
+            // 
+            this.label73.AutoSize = true;
+            this.label73.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label73.Location = new System.Drawing.Point(1580, 17);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(65, 24);
+            this.label73.TabIndex = 181;
+            this.label73.Text = "??? 50";
+            // 
+            // richTextBoxUnknown50
+            // 
+            this.richTextBoxUnknown50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown50.Location = new System.Drawing.Point(1646, 14);
+            this.richTextBoxUnknown50.Name = "richTextBoxUnknown50";
+            this.richTextBoxUnknown50.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown50.TabIndex = 182;
+            this.richTextBoxUnknown50.Text = "";
+            // 
+            // label74
+            // 
+            this.label74.AutoSize = true;
+            this.label74.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label74.Location = new System.Drawing.Point(233, 214);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(65, 24);
+            this.label74.TabIndex = 179;
+            this.label74.Text = "??? 49";
+            // 
+            // richTextBoxUnknown49
+            // 
+            this.richTextBoxUnknown49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown49.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown49.Location = new System.Drawing.Point(299, 211);
+            this.richTextBoxUnknown49.Name = "richTextBoxUnknown49";
+            this.richTextBoxUnknown49.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown49.TabIndex = 180;
+            this.richTextBoxUnknown49.Text = "";
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label75.Location = new System.Drawing.Point(233, 174);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(65, 24);
+            this.label75.TabIndex = 177;
+            this.label75.Text = "??? 48";
+            // 
+            // richTextBoxUnknown48
+            // 
+            this.richTextBoxUnknown48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown48.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown48.Location = new System.Drawing.Point(299, 171);
+            this.richTextBoxUnknown48.Name = "richTextBoxUnknown48";
+            this.richTextBoxUnknown48.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown48.TabIndex = 178;
+            this.richTextBoxUnknown48.Text = "";
+            // 
+            // label76
+            // 
+            this.label76.AutoSize = true;
+            this.label76.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label76.Location = new System.Drawing.Point(233, 134);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(65, 24);
+            this.label76.TabIndex = 175;
+            this.label76.Text = "??? 47";
+            // 
+            // richTextBoxUnknown47
+            // 
+            this.richTextBoxUnknown47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown47.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown47.Location = new System.Drawing.Point(299, 131);
+            this.richTextBoxUnknown47.Name = "richTextBoxUnknown47";
+            this.richTextBoxUnknown47.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown47.TabIndex = 176;
+            this.richTextBoxUnknown47.Text = "";
+            // 
+            // label77
+            // 
+            this.label77.AutoSize = true;
+            this.label77.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label77.Location = new System.Drawing.Point(233, 97);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(65, 24);
+            this.label77.TabIndex = 173;
+            this.label77.Text = "??? 46";
+            // 
+            // richTextBoxUnknown46
+            // 
+            this.richTextBoxUnknown46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown46.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown46.Location = new System.Drawing.Point(299, 94);
+            this.richTextBoxUnknown46.Name = "richTextBoxUnknown46";
+            this.richTextBoxUnknown46.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown46.TabIndex = 174;
+            this.richTextBoxUnknown46.Text = "";
+            // 
+            // label78
+            // 
+            this.label78.AutoSize = true;
+            this.label78.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label78.Location = new System.Drawing.Point(233, 56);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(65, 24);
+            this.label78.TabIndex = 171;
+            this.label78.Text = "??? 45";
+            // 
+            // richTextBoxUnknown45
+            // 
+            this.richTextBoxUnknown45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown45.Location = new System.Drawing.Point(299, 53);
+            this.richTextBoxUnknown45.Name = "richTextBoxUnknown45";
+            this.richTextBoxUnknown45.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown45.TabIndex = 172;
+            this.richTextBoxUnknown45.Text = "";
+            // 
+            // label79
+            // 
+            this.label79.AutoSize = true;
+            this.label79.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label79.Location = new System.Drawing.Point(231, 16);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(65, 24);
+            this.label79.TabIndex = 169;
+            this.label79.Text = "??? 44";
+            // 
+            // richTextBoxUnknown44
+            // 
+            this.richTextBoxUnknown44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown44.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown44.Location = new System.Drawing.Point(297, 13);
+            this.richTextBoxUnknown44.Name = "richTextBoxUnknown44";
+            this.richTextBoxUnknown44.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown44.TabIndex = 170;
+            this.richTextBoxUnknown44.Text = "";
+            // 
+            // richTextBoxUnknown55
+            // 
+            this.richTextBoxUnknown55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown55.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown55.Location = new System.Drawing.Point(1646, 311);
+            this.richTextBoxUnknown55.Name = "richTextBoxUnknown55";
+            this.richTextBoxUnknown55.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown55.TabIndex = 192;
+            this.richTextBoxUnknown55.Text = "";
+            // 
+            // richTextBoxUnknown54
+            // 
+            this.richTextBoxUnknown54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown54.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown54.Location = new System.Drawing.Point(1614, 254);
+            this.richTextBoxUnknown54.Name = "richTextBoxUnknown54";
+            this.richTextBoxUnknown54.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown54.TabIndex = 190;
+            this.richTextBoxUnknown54.Text = "";
+            // 
+            // label82
+            // 
+            this.label82.AutoSize = true;
+            this.label82.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label82.Location = new System.Drawing.Point(1612, 145);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(94, 24);
+            this.label82.TabIndex = 187;
+            this.label82.Text = "? Crash53";
+            // 
+            // richTextBoxUnknown53
+            // 
+            this.richTextBoxUnknown53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.richTextBoxUnknown53.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.richTextBoxUnknown53.Location = new System.Drawing.Point(1614, 172);
+            this.richTextBoxUnknown53.Name = "richTextBoxUnknown53";
+            this.richTextBoxUnknown53.Size = new System.Drawing.Size(123, 37);
+            this.richTextBoxUnknown53.TabIndex = 188;
+            this.richTextBoxUnknown53.Text = "";
+            // 
+            // label80
+            // 
+            this.label80.AutoSize = true;
+            this.label80.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label80.Location = new System.Drawing.Point(1620, 227);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(135, 24);
+            this.label80.TabIndex = 193;
+            this.label80.Text = "? Model AI? 54";
+            // 
+            // label81
+            // 
+            this.label81.AutoSize = true;
+            this.label81.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label81.Location = new System.Drawing.Point(1600, 317);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(45, 24);
+            this.label81.TabIndex = 194;
+            this.label81.Text = "? 55";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown35);
+            this.groupBox1.Controls.Add(this.label68);
+            this.groupBox1.Controls.Add(this.label62);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown36);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown43);
+            this.groupBox1.Controls.Add(this.label63);
+            this.groupBox1.Controls.Add(this.label69);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown37);
+            this.groupBox1.Controls.Add(this.label64);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown42);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown38);
+            this.groupBox1.Controls.Add(this.label67);
+            this.groupBox1.Controls.Add(this.label70);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown39);
+            this.groupBox1.Controls.Add(this.label66);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown41);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown40);
+            this.groupBox1.Controls.Add(this.label65);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown49);
+            this.groupBox1.Controls.Add(this.label74);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown44);
+            this.groupBox1.Controls.Add(this.label79);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown45);
+            this.groupBox1.Controls.Add(this.label78);
+            this.groupBox1.Controls.Add(this.label75);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown46);
+            this.groupBox1.Controls.Add(this.label77);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown48);
+            this.groupBox1.Controls.Add(this.richTextBoxUnknown47);
+            this.groupBox1.Controls.Add(this.label76);
+            this.groupBox1.Location = new System.Drawing.Point(1499, 375);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(428, 370);
+            this.groupBox1.TabIndex = 195;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Big Endian Numbers?";
             // 
             // FormVesperiaEnemyEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1635, 737);
+            this.ClientSize = new System.Drawing.Size(1939, 745);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label81);
+            this.Controls.Add(this.label80);
+            this.Controls.Add(this.richTextBoxUnknown55);
+            this.Controls.Add(this.richTextBoxUnknown54);
+            this.Controls.Add(this.label82);
+            this.Controls.Add(this.richTextBoxUnknown53);
+            this.Controls.Add(this.label71);
+            this.Controls.Add(this.label57);
+            this.Controls.Add(this.richTextBoxUnknown52);
+            this.Controls.Add(this.richTextBoxUnknown34);
+            this.Controls.Add(this.label72);
+            this.Controls.Add(this.label56);
+            this.Controls.Add(this.richTextBoxUnknown51);
+            this.Controls.Add(this.richTextBoxUnknown33);
+            this.Controls.Add(this.label73);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.richTextBoxUnknown50);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label54);
             this.Controls.Add(this.label51);
             this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.enemyTree);
@@ -1432,16 +2194,12 @@ namespace Etrian_Odyssey_IV_test
             this.Load += new System.EventHandler(this.FormVesperiaEnemyEditor_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1494,7 +2252,7 @@ namespace Etrian_Odyssey_IV_test
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.RichTextBox richTextBoxUnknown2;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.RichTextBox richTextBoxUnknown3;
+        private System.Windows.Forms.RichTextBox richTextBoxDArms;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Label label40;
@@ -1552,17 +2310,80 @@ namespace Etrian_Odyssey_IV_test
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.RichTextBox richTextBoxUnknown23;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.Label label51;
         private System.Windows.Forms.Label label53;
         private System.Windows.Forms.Label label52;
         private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RichTextBox richTextBoxUPDef;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.RichTextBox richTextBoxEMaxHP;
+        private System.Windows.Forms.RichTextBox richTextBoxEMDef;
+        private System.Windows.Forms.RichTextBox richTextBoxEPAtk;
+        private System.Windows.Forms.RichTextBox richTextBoxEPDef;
+        private System.Windows.Forms.RichTextBox richTextBoxEMAtk;
+        private System.Windows.Forms.RichTextBox richTextBoxHMaxHP;
+        private System.Windows.Forms.RichTextBox richTextBoxHPAtk;
+        private System.Windows.Forms.RichTextBox richTextBoxHMAtk;
+        private System.Windows.Forms.RichTextBox richTextBoxUMaxHP;
+        private System.Windows.Forms.RichTextBox richTextBoxUMDef;
+        private System.Windows.Forms.RichTextBox richTextBoxUPAtk;
+        private System.Windows.Forms.RichTextBox richTextBoxUMAtk;
         private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown32;
         private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown33;
         private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown34;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown37;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown36;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown35;
+        private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown43;
+        private System.Windows.Forms.Label label69;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown42;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown41;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown40;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown39;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown38;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown52;
+        private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown51;
+        private System.Windows.Forms.Label label73;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown50;
+        private System.Windows.Forms.Label label74;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown49;
+        private System.Windows.Forms.Label label75;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown48;
+        private System.Windows.Forms.Label label76;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown47;
+        private System.Windows.Forms.Label label77;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown46;
+        private System.Windows.Forms.Label label78;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown45;
+        private System.Windows.Forms.Label label79;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown44;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown55;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown54;
+        private System.Windows.Forms.Label label82;
+        private System.Windows.Forms.RichTextBox richTextBoxUnknown53;
+        private System.Windows.Forms.Label label80;
+        private System.Windows.Forms.Label label81;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

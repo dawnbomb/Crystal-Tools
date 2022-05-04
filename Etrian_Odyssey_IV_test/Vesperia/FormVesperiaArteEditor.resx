@@ -117,29 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label51.Text" xml:space="preserve">
-    <value>The basic attack  formula is Your Atk - (Enemy Def /2)
-
-For artes the damage formula is:  
-Usage * ArteDmg% *  (  (P.Atk% - Target P.Def) + (M.Atk% - Target M.Def)  ) 
-Finally, *0.9~1.1 for damage variance.   
-*1.5 if critical.      *Weakness% (Default 1.00)
-Note: By default most enemies take 150% Weakness 50% Resist
-
-Arte usage starts at 1, goes upto 3 at 9999 uses.
-ArteDmg% is the damage number of the arte as a %
-P.Atk% and M.Atk% is that % of the users stat
-Minimum for everything is 1.
-
-
-Arte is aquired from: 
-L = Lv up
-A = Arte usage of other artes 
-S = Skills + arte usage
-E = Events give this arte, some events are missable
-C = Cameo arte, from a specific arte + equipment, cannot be learned seperately.
-
-
-</value>
-  </data>
 </root>
