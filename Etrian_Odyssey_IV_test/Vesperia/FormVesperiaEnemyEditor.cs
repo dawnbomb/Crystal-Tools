@@ -16,7 +16,7 @@ namespace Etrian_Odyssey_IV_test
 {
     public partial class FormVesperiaEnemyEditor : Form
     {
-        String treeloaded = "No";
+        
         byte[] enemydata_array; //This starts the array, the name after is what i name this array?
 
         public FormVesperiaEnemyEditor()
@@ -31,30 +31,30 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("0 Knight Fencer");
             enemyTree.Nodes.Add("1 Knight Guard");
             enemyTree.Nodes.Add("2 Knight Warrior");
-            enemyTree.Nodes.Add("HIDDEN Knight Fencer H?");
+            enemyTree.Nodes.Add("HIDDEN Knight Fencer H");
             enemyTree.Nodes.Add("3 Knight Fencer A");
             enemyTree.Nodes.Add("4 Knight Fencer F");
             enemyTree.Nodes.Add("5 Knight Fencer K");
             enemyTree.Nodes.Add("6 Knight Fencer S");
-            enemyTree.Nodes.Add("HIDDEN Knight Fencer H");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior H");
             enemyTree.Nodes.Add("7 Knight Warrior A");
-            enemyTree.Nodes.Add("HIDDEN Knight Warrior F?");
-            enemyTree.Nodes.Add("HIDDEN Knight Warrior K?");
-            enemyTree.Nodes.Add("HIDDEN Knight Warrior S?");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior F");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior K");
+            enemyTree.Nodes.Add("HIDDEN Knight Warrior S");
             enemyTree.Nodes.Add("8 Grain");
             enemyTree.Nodes.Add("9 Knight Lancer");
             enemyTree.Nodes.Add("10 Knight Catcher");
             enemyTree.Nodes.Add("11 Knight Halberd");
             enemyTree.Nodes.Add("12 Knight Halberd A");
             enemyTree.Nodes.Add("13 Knight Halberd F");
-            enemyTree.Nodes.Add("HIDDEN Knight Halberd K?");
-            enemyTree.Nodes.Add("HIDDEN Knight Halberd S?");
+            enemyTree.Nodes.Add("HIDDEN Knight Halberd K");
+            enemyTree.Nodes.Add("HIDDEN Knight Halberd S");
             enemyTree.Nodes.Add("14 Erungar");
             enemyTree.Nodes.Add("15 Erungar (Team Battle)");
             enemyTree.Nodes.Add("16 Erungar Memory");
-            enemyTree.Nodes.Add("HIDDEN Knight Lancer H?");
+            enemyTree.Nodes.Add("HIDDEN Knight Lancer H");
             enemyTree.Nodes.Add("17 Knight Lancer A");
-            enemyTree.Nodes.Add("HIDDEN Knight Lancer F?");
+            enemyTree.Nodes.Add("HIDDEN Knight Lancer F");
             enemyTree.Nodes.Add("18 Knight Lancer K");
             enemyTree.Nodes.Add("19 Knight Lancer S");
             enemyTree.Nodes.Add("20 Augusto");
@@ -108,7 +108,7 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("68 Val");
             enemyTree.Nodes.Add("69 Gilga");
             enemyTree.Nodes.Add("70 Filifolia");
-            enemyTree.Nodes.Add("71 Filifolia Bud");
+            enemyTree.Nodes.Add("71 Filifolia Bud                     Test Dummy 1");
             enemyTree.Nodes.Add("72 Filifolia Puff");
             enemyTree.Nodes.Add("HIDDEN Filifolia Mutant");
             enemyTree.Nodes.Add("73 Filihelia");
@@ -206,7 +206,7 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("163 Peepit");
             enemyTree.Nodes.Add("164 Thornwigle");
             enemyTree.Nodes.Add("165 Bunwigle");
-            enemyTree.Nodes.Add("166 Minicoid");
+            enemyTree.Nodes.Add("166 Minicoid                Test Dummy 2");
             enemyTree.Nodes.Add("167 Ratwigle");
             enemyTree.Nodes.Add("168 Squirrigle");
             enemyTree.Nodes.Add("169 Gobligle");
@@ -511,8 +511,8 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("456 Flynn Team Battle");
             enemyTree.Nodes.Add("457 Flynn Memory");
             enemyTree.Nodes.Add("458 Patty Team Battle");
-            enemyTree.Nodes.Add("459 Adecor              Event 1");
-            enemyTree.Nodes.Add("460 Boccos              Event 1");
+            enemyTree.Nodes.Add("459 Adecor         Event 1");
+            enemyTree.Nodes.Add("460 Boccos        Event 1");
             enemyTree.Nodes.Add("461 Adecor");
             enemyTree.Nodes.Add("462 Boccos");
             enemyTree.Nodes.Add("463 Adecor");
@@ -533,7 +533,7 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("478 Time Traveller Team Battle");
             enemyTree.Nodes.Add("479 Sorrowful Queen of Darkness");
             enemyTree.Nodes.Add("480 Sorrowful Queen of Darkness Team Battle");
-            enemyTree.Nodes.Add("HIDDEN Billybally Leaf");
+            enemyTree.Nodes.Add("HIDDEN Billybally Leaf (Gattsuo)");
             enemyTree.Nodes.Add("HIDDEN Bridge Support?");
             enemyTree.Nodes.Add("HIDDEN Lamp?");
             enemyTree.Nodes.Add("HIDDEN Karalow X?");
@@ -543,7 +543,7 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("HIDDEN Treasure Chest (Dark)");
             enemyTree.Nodes.Add("HIDDEN Treasure Chest (Mystery)");
 
-            
+
 
             TreeNodeCollection nodeCollect = enemyTree.Nodes;
             enemyTree.SelectedNode = nodeCollect[0];
@@ -638,6 +638,8 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxUnknown53.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 72).ToString("D");
             richTextBoxUnknown54.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 80).ToString("D");
             richTextBoxUnknown55.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 92).ToString("D");
+            richTextBoxBattleBook.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 316).ToString("D");
+            richTextBoxUnknown56.Text = BitConverter.ToUInt32(enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 324).ToString("D");
 
 
             richTextBoxEMaxHP.Text = Convert.ToString(Convert.ToInt32(richTextBoxMaxHP.Text) * 0.7);
@@ -750,6 +752,8 @@ namespace Etrian_Odyssey_IV_test
             UInt32.TryParse(richTextBoxUnknown53.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 72); }
             UInt32.TryParse(richTextBoxUnknown54.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 80); }
             UInt32.TryParse(richTextBoxUnknown55.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 92); }
+            UInt32.TryParse(richTextBoxBattleBook.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 316); }
+            UInt32.TryParse(richTextBoxUnknown56.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 82236641 + (enemyTree.SelectedNode.Index * 328) + 324); }
             
 
             File.WriteAllBytes(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo", enemydata_array); //saves to the path i set, everything in the array/        
@@ -806,6 +810,44 @@ namespace Etrian_Odyssey_IV_test
             {
                 System.Windows.Forms.MessageBox.Show("The mod directory is not set");
             }
+        }
+
+        private void label10_Click(object sender, EventArgs e) //LP text
+        {
+            richTextBoxInfoBox.Text = "LP is the EXP required by skills." +
+                "When a skill gets enough LP, it is permenantly learned.";
+        }
+
+        private void label11_Click(object sender, EventArgs e) //Fire text
+        {
+            richTextBoxInfoBox.Text = "Elements are %Magic Damage recieved" +
+                "max weakness is 255 %" +
+                "You can absorb by underflow to max of - 255 % " +
+                "Magic damage is ANY damage based on your magic stat," +
+                "not only spell damage." +
+                "by default, all elemental artes are atleast somewhat magical.";
+               
+        }
+
+        private void label21_Click(object sender, EventArgs e) //Darms text
+        {
+            richTextBoxInfoBox.Text = "This is the devil arms." +
+                "By default, only the spiral draco is immune to them." +
+                "It doesn't seem like any other weapons can get the" +
+                "devil arms property, so it's actually only devil arms." +
+                "The D arms element is not shown on weapons or battle book." +
+                "" +
+                "PS the D arms are end-game weapons that get +1 damage every" +
+                "time the user gets a kill.";
+        }
+
+        private void label22_Click_1(object sender, EventArgs e) //To Do List
+        {
+            richTextBoxInfoBox.Text = "Secret mission drop" +
+                "Secret mission codition" +
+                "Iron Stance" +
+                "Model#" +
+                "AI setting?";
         }
     }
 }

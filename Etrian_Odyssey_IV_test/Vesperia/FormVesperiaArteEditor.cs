@@ -18,6 +18,10 @@ namespace Etrian_Odyssey_IV_test
     {
         
         byte[] enemydata_array; //This starts the array, the name after is what i name this array?
+        List<ComboBox> Arteboxes = new List<ComboBox>();  //Puts the combo boxes in an array called boxes so i can refernce this array later (to make the code pretty and save time)
+        List<ComboBox> Fatalboxes = new List<ComboBox>();  //Puts the combo boxes in an array called boxes so i can refernce this array later (to make the code pretty and save time)
+        string VarArteUser;
+        string VarFatalStrikeUser;
 
         public FormVesperiaArteEditor()
         {
@@ -30,22 +34,22 @@ namespace Etrian_Odyssey_IV_test
             //Add the EO1 enemy list to the in editor list of enemy names
             enemyTree.Nodes.Add("Dummy 1");
             enemyTree.Nodes.Add("2");
-            enemyTree.Nodes.Add("3");
-            enemyTree.Nodes.Add("4");
-            enemyTree.Nodes.Add("5");
-            enemyTree.Nodes.Add("6");
-            enemyTree.Nodes.Add("7");
-            enemyTree.Nodes.Add("8");
-            enemyTree.Nodes.Add("9");
-            enemyTree.Nodes.Add("10");
-            enemyTree.Nodes.Add("11");
-            enemyTree.Nodes.Add("12");
-            enemyTree.Nodes.Add("13");
-            enemyTree.Nodes.Add("14");
-            enemyTree.Nodes.Add("15");
-            enemyTree.Nodes.Add("16");
-            enemyTree.Nodes.Add("17");
-            enemyTree.Nodes.Add("18");
+            enemyTree.Nodes.Add("Regular Attack - O");
+            enemyTree.Nodes.Add("Regular Attack - ^O");
+            enemyTree.Nodes.Add("Regular Attack - <>O");
+            enemyTree.Nodes.Add("Regular Attack - vO");
+            enemyTree.Nodes.Add("Regular Attack - Jumping - O");
+            enemyTree.Nodes.Add("Regular Attack - Jumping - vO");
+            enemyTree.Nodes.Add("Regular Secondary Attack - O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - ^O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - <>O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - vO");
+            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping - O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping - vO");
+            enemyTree.Nodes.Add("Free Run Attack");
+            enemyTree.Nodes.Add("Indigo Fatal Strike");
+            enemyTree.Nodes.Add("Crimson Fatal Strike");
+            enemyTree.Nodes.Add("Viridian Fatal Strike");
             enemyTree.Nodes.Add("Azure Edge");
             enemyTree.Nodes.Add("Cerberus Strike");
             enemyTree.Nodes.Add("Fang Strike");
@@ -81,26 +85,26 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Frigid Blast");
             enemyTree.Nodes.Add("Demon Attack (Title)");
             enemyTree.Nodes.Add("Divine Wolf");
-            enemyTree.Nodes.Add("Divine Wolf Fire");
-            enemyTree.Nodes.Add("Divine Wolf Earth");
-            enemyTree.Nodes.Add("Divine Wolf Wind");
-            enemyTree.Nodes.Add("Divine Wolf Water");
+            enemyTree.Nodes.Add("Divine Wolf Blaze");
+            enemyTree.Nodes.Add("Divine Wolf Crush");
+            enemyTree.Nodes.Add("Divine Wolf Storm");
+            enemyTree.Nodes.Add("Divine Wolf Floor");
             enemyTree.Nodes.Add("Savage Wolf Fury");
             enemyTree.Nodes.Add("Heavenly Bladewing *MA");
             enemyTree.Nodes.Add("Twin Wave  *Duel MA");
             enemyTree.Nodes.Add("Step Combo");
-            enemyTree.Nodes.Add("Regular Attack (Estelle)");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("");
-            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping");
-            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping");
+            enemyTree.Nodes.Add("Regular Attack - O (Estelle)");
+            enemyTree.Nodes.Add("Regular Attack - ^O");
+            enemyTree.Nodes.Add("Regular Attack - <>O");
+            enemyTree.Nodes.Add("Regular Attack - vO");
+            enemyTree.Nodes.Add("Regular Attack - Jumping - O");
+            enemyTree.Nodes.Add("Regular Attack - Jumping - vO");
+            enemyTree.Nodes.Add("Regular Secondary Attack - O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - ^O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - <>O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - vO");
+            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping - O");
+            enemyTree.Nodes.Add("Regular Secondary Attack - Jumping - vO");
             enemyTree.Nodes.Add("Free Run Attack");
             enemyTree.Nodes.Add("Indigo Fatal Strike");
             enemyTree.Nodes.Add("Crimson Fatal Strike");
@@ -633,6 +637,34 @@ namespace Etrian_Odyssey_IV_test
             enemyTree.Nodes.Add("Summon Friends (Seifer)");
 
 
+            Arteboxes.Add(comboBoxArteUser);
+            string[] PlayerArteUserList = new[] {
+            "Unknown Flag",
+            "00 None / from another arte",
+            "01 Yuri",
+            "02 Estelle",
+            "03 Karol",
+            "04 Rita",
+            "05 Raven",
+            "06 Judith",
+            "07 Repede",
+            "08 Flynn",
+            "09 Patty"
+            };
+            comboBoxArteUser.Items.AddRange(PlayerArteUserList);
+
+
+            Fatalboxes.Add(comboBoxFatalStrike);
+            string[] PlayerArteFatalStrike = new[] {
+            "Unknown",
+            "00 Red",
+            "01 Blue",
+            "02 Green"          
+            };
+            comboBoxFatalStrike.Items.AddRange(PlayerArteFatalStrike);
+
+
+
 
             TreeNodeCollection nodeCollect = enemyTree.Nodes;
             enemyTree.SelectedNode = nodeCollect[0];
@@ -713,7 +745,7 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxUnknown45.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 320).ToString("D");
             richTextBoxUnknown46.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 328).ToString("D");
             richTextBoxUnknown47.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 332).ToString("D");
-            richTextBoxUnknown48.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340).ToString("D");
+            //richTextBoxFatalStrikes.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340).ToString("D");
             richTextBoxUnknown49.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 180).ToString("D");
             richTextBoxUnknown50.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 272).ToString("D");
             richTextBoxUnknown51.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 276).ToString("D");
@@ -725,11 +757,58 @@ namespace Etrian_Odyssey_IV_test
             richTextBoxUnknown57.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 364).ToString("D");
             richTextBoxUnknown58.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 368).ToString("D");
             richTextBoxUnknown59.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 372).ToString("D");
-            richTextBoxUnknown60.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392).ToString("D");
-            
+            //richTextBoxArteUser.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392).ToString("D");
+            richTextBoxUA1.Text = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 252).ToString("D");
 
+
+
+
+            string VarSkillFlag = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFlags(0);            
+
+            void nameOfFlags(int box_id)
+            {
+                //skillTree.Nodes.Add("Function Is Working!" + VarcomboBoxSkillFlag);
+                Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("Unknown Flag");
+                if (VarSkillFlag == "0") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("00 None / from another arte"); }
+                if (VarSkillFlag == "1") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("01 Yuri"); }
+                if (VarSkillFlag == "2") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("02 Estelle"); }
+                if (VarSkillFlag == "3") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("03 Karol"); }
+                if (VarSkillFlag == "4") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("04 Rita"); }
+                if (VarSkillFlag == "5") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("05 Raven"); }
+                if (VarSkillFlag == "6") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("06 Judith"); }
+                if (VarSkillFlag == "7") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("07 Repede"); }
+                if (VarSkillFlag == "8") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("08 Flynn"); }
+                if (VarSkillFlag == "9") { Arteboxes[box_id].SelectedIndex = Arteboxes[box_id].FindStringExact("09 Patty"); }
+
+
+              
+            }
+            VarArteUser = VarSkillFlag;
+
+
+            string VarFatalStrike = BitConverter.ToUInt32(enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340).ToString("D"); //We put the hex into this string, and if the string is read, we make the text appear in the combo box.
+            nameOfFatalStrikes(0);
+
+            void nameOfFatalStrikes(int box_id)
+            {
+                //skillTree.Nodes.Add("Function Is Working!" + VarcomboBoxSkillFlag);
+                Fatalboxes[box_id].SelectedIndex = Fatalboxes[box_id].FindStringExact("Unknown Flag");
+                if (VarFatalStrike == "0") { Fatalboxes[box_id].SelectedIndex = Fatalboxes[box_id].FindStringExact("00 Red"); }
+                if (VarFatalStrike == "1") { Fatalboxes[box_id].SelectedIndex = Fatalboxes[box_id].FindStringExact("01 Blue"); }
+                if (VarFatalStrike == "2") { Fatalboxes[box_id].SelectedIndex = Fatalboxes[box_id].FindStringExact("02 Green"); }
+
+            }
+            VarFatalStrikeUser = VarFatalStrike;
 
         }
+
+
+        private void button4_Click(object sender, EventArgs e) //Test Button
+        {
+            
+        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -810,7 +889,7 @@ namespace Etrian_Odyssey_IV_test
             UInt32.TryParse(richTextBoxUnknown45.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 320); }
             UInt32.TryParse(richTextBoxUnknown46.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 328); }
             UInt32.TryParse(richTextBoxUnknown47.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 332); }
-            UInt32.TryParse(richTextBoxUnknown48.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340); }
+            //UInt32.TryParse(richTextBoxFatalStrikes.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340); }
             UInt32.TryParse(richTextBoxUnknown49.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 180); }
             UInt32.TryParse(richTextBoxUnknown50.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 272); }
             UInt32.TryParse(richTextBoxUnknown51.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 276); }
@@ -822,8 +901,31 @@ namespace Etrian_Odyssey_IV_test
             UInt32.TryParse(richTextBoxUnknown57.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 364); }
             UInt32.TryParse(richTextBoxUnknown58.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 368); }
             UInt32.TryParse(richTextBoxUnknown59.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 372); }
-            UInt32.TryParse(richTextBoxUnknown60.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392); }
+            UInt32.TryParse(richTextBoxUA1.Text, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 252); }
+
+
+            //if (VarSkillFlag == "9") { boxes[box_id].SelectedIndex = boxes[box_id].FindStringExact("09 Patty"); }
             
+            //Arte User combo box
+            if (comboBoxArteUser.Text == "00 None / from another arte") { VarArteUser = "0"; }
+            if (comboBoxArteUser.Text == "01 Yuri") { VarArteUser = "1"; }
+            if (comboBoxArteUser.Text == "02 Estelle") { VarArteUser = "2"; }
+            if (comboBoxArteUser.Text == "03 Karol") { VarArteUser = "3"; }
+            if (comboBoxArteUser.Text == "04 Rita") { VarArteUser = "4"; }
+            if (comboBoxArteUser.Text == "05 Raven") { VarArteUser = "5"; }
+            if (comboBoxArteUser.Text == "06 Judith") { VarArteUser = "6"; }
+            if (comboBoxArteUser.Text == "07 Repede") { VarArteUser = "7"; }
+            if (comboBoxArteUser.Text == "08 Flynn") { VarArteUser = "8"; }
+            if (comboBoxArteUser.Text == "09 Patty") { VarArteUser = "9"; }
+            UInt32.TryParse(VarArteUser, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 392); }
+
+            //Fatal strike type combo box
+            if (comboBoxFatalStrike.Text == "00 Red") { VarArteUser = "0"; }
+            if (comboBoxFatalStrike.Text == "01 Blue") { VarArteUser = "1"; }
+            if (comboBoxFatalStrike.Text == "02 Green") { VarArteUser = "2"; }
+            UInt32.TryParse(VarArteUser, out value32); { Form1.ByteWriter(value32, enemydata_array, 81604293 + (enemyTree.SelectedNode.Index * 396) + 340); }
+            
+
 
             File.WriteAllBytes(Properties.Settings.Default.VesperiaData64 + "\\Data64\\btl.svo", enemydata_array); //saves to the path i set, everything in the array/
 
@@ -921,6 +1023,12 @@ namespace Etrian_Odyssey_IV_test
                 "You could use this to change what artes each character can use.\r\n" +
                 "The game reads this artes usage count, TP and FS/element for ingame info\r\n" +
                 "but doesn't change the name or description, thats for the pointers.";
+        }
+
+        private void label6_Click(object sender, EventArgs e) //Fatal strike text
+        {
+            richTextBoxInfoBox.Text = "Appears to function diffrently" +
+                "for normal attacks / non-artes.";
         }
     }
 }

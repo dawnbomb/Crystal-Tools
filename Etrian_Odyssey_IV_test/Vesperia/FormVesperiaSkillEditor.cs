@@ -17,7 +17,7 @@ namespace Etrian_Odyssey_IV_test
     public partial class FormVesperiaSkillEditor : Form
     {
 
-        String treeloaded = "No";
+        
         byte[] enemydata_array; //This starts the array, the name after is what i name this array?
 
         public FormVesperiaSkillEditor()

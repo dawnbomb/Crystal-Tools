@@ -117,17 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="label54.Text" xml:space="preserve">
-    <value>Enemy drops and drop chance missing
-List of missing things !
-Item steal
-Normal Drop 1 and 2
-Secret mission drop 
-Secret mission codition 
-Fatal strike resistences missing
-fatal strike bonuses missing
-Iron Stance
-Model#
-AI setting?</value>
-  </data>
 </root>
